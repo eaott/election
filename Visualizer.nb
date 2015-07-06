@@ -10,21 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39260,        938]
-NotebookOptionsPosition[     38651,        912]
-NotebookOutlinePosition[     39004,        928]
-CellTagsIndexPosition[     38961,        925]
+NotebookDataLength[     46422,       1106]
+NotebookOptionsPosition[     45351,       1069]
+NotebookOutlinePosition[     45704,       1085]
+CellTagsIndexPosition[     45661,       1082]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[{
  RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{
    RowBox[{"data", "=", 
-    RowBox[{
-    "Import", "[", "\"\</Users/Evan/GitProjects/Election/like_data.csv\>\"", 
-     "]"}]}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"Import", "[", "\"\<like_data.csv\>\"", "]"}]}], ";"}], 
+  "\[IndentingNewLine]", 
   RowBox[{"(*", " ", 
    RowBox[{
    "Remove", " ", "the", " ", "last", " ", "\"\<empty\>\"", " ", "data", " ", 
@@ -215,12 +218,13 @@ Cell[BoxData[{
      "\"\<Overnight Change (Percentage)\>\""}], "}"}]}], 
   ";"}], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQAWIQLSa0yEpE47VjzrogGxCttkXpfBCQDpH1uwqi3/9P
+1:eJxTTMoPSmViYGAQBWIQLSa0yEpE47VjzrogGxCttkXpfBCQDpH1uwqi3/9P
 ZQwG0kJf05lA9BKpD+wg+qvgSg4Q/UbRVxBEZ2XmSoHoPFduDRC9e/lhbRD9
 IJPTAkTrPQkIBNGHFGRCQXSYeVEMiL4XYnMwDEj7b3AC02o7W4+BaDtTrVMg
 elFV8TkQPa3kwhUQvY0j9BaIlpux6S6IfqRQ8QxE71ty+QWILtVz/VsLpOvm
 v2CqA9Itx74Igejd5tGiIDrg4n5pEO1RUS8Lop0ZWixBdPmLWgcQbTcl1gVE
-d2WvCgbRzza53AHR3yy07oPocxW6K+qB9AkJLzANAN0fj8I=
+d2WvCgbRzza53AHR3yy07oPocxW6K+qB9AkJLzAttuBj+xog3aSr0AuiAR1A
+l00=
   "]],
 
 Cell[CellGroupData[{
@@ -419,7 +423,160 @@ $CellContext`graphTimes$4779 =
    3.645110064982843*^9, 3.645110075971354*^9}, {3.645110172979974*^9, 
    3.6451102267886963`*^9}, 3.6451115846296253`*^9, 3.645111637772039*^9, {
    3.6451116790968237`*^9, 3.6451117074280787`*^9}, 3.645114018519198*^9, 
-   3.645114353573621*^9, 3.6451231197754307`*^9, 3.6451482004391527`*^9}]
+   3.645114353573621*^9, 3.6451231197754307`*^9, 3.6451482004391527`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partd"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part specification \[NoBreak]\\!\\(titles \
+\[LeftDoubleBracket] 3 \[RightDoubleBracket]\\)\[NoBreak] is longer than \
+depth of object. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\
+\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partd\\\", ButtonNote -> \
+\\\"Part::partd\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035197577963`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partd"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part specification \[NoBreak]\\!\\(titles \
+\[LeftDoubleBracket] 3 \[RightDoubleBracket]\\)\[NoBreak] is longer than \
+depth of object. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\
+\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partd\\\", ButtonNote -> \
+\\\"Part::partd\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.645203519787941*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "take"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Cannot take positions \[NoBreak]\\!\\(2\\)\[NoBreak] \
+through \[NoBreak]\\!\\(-1\\)\[NoBreak] in \
+\[NoBreak]\\!\\(times\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\
+\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Part/take\\\", ButtonNote -> \
+\\\"Part::take\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035198055687`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Symbol", "::", "argx"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(Symbol\\)\[NoBreak] called with \[NoBreak]\
+\\!\\(0\\)\[NoBreak] arguments; 1 argument is expected. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/argx\\\", ButtonNote -> \
+\\\"Symbol::argx\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.645203519839343*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partd"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part specification \[NoBreak]\\!\\(lastNamesWithoutParty \
+\[LeftDoubleBracket] \\(\\({7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, \
+20}\\)\\) \[RightDoubleBracket]\\)\[NoBreak] is longer than depth of object. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/partd\\\", \
+ButtonNote -> \\\"Part::partd\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035198808928`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Part :: \
+partd\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035199188433`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"DateListPlot", "::", "ldata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(ConvertToTimes[\\(\\(\\(\\(Symbol[]\\)\\), \
+\\(\\(times \[LeftDoubleBracket] \\(\\(2 ;; All\\)\\) \
+\[RightDoubleBracket]\\)\\)\\)\\)]\\)\[NoBreak] is not a valid dataset or \
+list of datasets. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/DateListPlot\\\", ButtonNote -> \
+\\\"DateListPlot::ldata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035200427647`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"DateListPlot", "::", "ldata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(ConvertToTimes[\\(\\(\\(\\(Symbol[]\\)\\), \
+\\(\\(times \[LeftDoubleBracket] \\(\\(2 ;; All\\)\\) \
+\[RightDoubleBracket]\\)\\)\\)\\)]\\)\[NoBreak] is not a valid dataset or \
+list of datasets. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/DateListPlot\\\", ButtonNote -> \
+\\\"DateListPlot::ldata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.645203520111793*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\({7, 8, 9, 10, 11, 12, 13, 14, 15, 16, \
+17, 18, 19, 20}\\)\[NoBreak] of \[NoBreak]\\!\\(\\(\\(\\(2.` ;; All\\)\\) - \
+\\(\\(1.`\\\\ \\(\\(Symbol[]\\)\\)\\)\\)\\)\\/\\(Symbol[]\\)\\)\[NoBreak] \
+does not exist. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.645203521638928*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\({7, 8, 9, 10, 11, 12, 13, 14, 15, 16, \
+17, 18, 19, 20}\\)\[NoBreak] of \
+\[NoBreak]\\!\\(\\(\\(\\(\\(StringSplit[\\(\\(Symbol[]\\)\\)]\\)\\) \
+\[LeftDoubleBracket] 2 \[RightDoubleBracket]\\)\\) \[LeftDoubleBracket] \
+\\(\\(\\(\\(\\(\\(StringSplit[1]\\)\\) \[LeftDoubleBracket] 2 \
+\[RightDoubleBracket]\\)\\), \\(\\(\\(\\(StringSplit[\\(\\(2 ;; All\\)\\)]\\)\
+\\) \[LeftDoubleBracket] 2 \[RightDoubleBracket]\\)\\)\\)\\) \
+\[RightDoubleBracket]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6452035217049627`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"DateListPlot", "::", "ldata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], \
+"\<\"\[NoBreak]\\!\\(ConvertToTimes[\\(\\(\\(\\(\\(\\({\\(\\(\\(2.` ;; All\\)\
+\\) - \\(\\(1.`\\\\ \\(\\(Symbol[]\\)\\)\\)\\)\\)\\/\\(Symbol[]\\), \
+0.`}\\)\\) \[LeftDoubleBracket] \\(\\(All, \\(\\({7, 8, 9, 10, 11, 12, 13, \
+14, 15, 16, 17, 18, 19, 20}\\)\\)\\)\\) \[RightDoubleBracket]\\)\\), 2\\)\\)]\
+\\)\[NoBreak] is not a valid dataset or list of datasets. \\!\\(\\*ButtonBox[\
+\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/DateListPlot\\\", ButtonNote -> \
+\\\"DateListPlot::ldata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.645203521799293*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -927,18 +1084,29 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 6934, 203, 556, "Input"],
+Cell[558, 20, 7037, 207, 631, "Input"],
 Cell[CellGroupData[{
-Cell[7517, 227, 4384, 108, 352, "Input"],
-Cell[11904, 337, 4573, 84, 390, "Output"]
+Cell[7620, 231, 4384, 108, 352, "Input"],
+Cell[12007, 341, 4573, 84, 390, "Output"],
+Cell[16583, 427, 514, 11, 24, "Message"],
+Cell[17100, 440, 512, 11, 24, "Message"],
+Cell[17615, 453, 508, 11, 24, "Message"],
+Cell[18126, 466, 493, 10, 24, "Message"],
+Cell[18622, 478, 593, 11, 42, "Message"],
+Cell[19218, 491, 530, 11, 24, "Message"],
+Cell[19751, 504, 596, 12, 24, "Message"],
+Cell[20350, 518, 594, 12, 24, "Message"],
+Cell[20947, 532, 607, 12, 43, "Message"],
+Cell[21557, 546, 874, 16, 42, "Message"],
+Cell[22434, 564, 743, 14, 82, "Message"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16514, 426, 4364, 104, 352, "Input"],
-Cell[20881, 532, 4900, 90, 548, "Output"]
+Cell[23214, 583, 4364, 104, 352, "Input"],
+Cell[27581, 689, 4900, 90, 548, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25818, 627, 6586, 165, 522, "Input"],
-Cell[32407, 794, 6228, 115, 386, "Output"]
+Cell[32518, 784, 6586, 165, 522, "Input"],
+Cell[39107, 951, 6228, 115, 386, "Output"]
 }, Open  ]]
 }
 ]
