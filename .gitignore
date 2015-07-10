@@ -13,4 +13,8 @@ hs_err_pid*
 
 # script things
 *.cron
+*.bat
 *.sh
+/bin
+.classpath
+.project
