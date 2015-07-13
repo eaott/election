@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     41330,        994]
-NotebookOptionsPosition[     40607,        964]
-NotebookOutlinePosition[     40960,        980]
-CellTagsIndexPosition[     40917,        977]
+NotebookDataLength[     42907,       1041]
+NotebookOptionsPosition[     42297,       1015]
+NotebookOutlinePosition[     42650,       1031]
+CellTagsIndexPosition[     42607,       1028]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,16 +33,11 @@ Cell[BoxData[{
    "Remove", " ", "the", " ", "last", " ", "\"\<empty\>\"", " ", "data", " ", 
     "cell"}], " ", "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"data", " ", "=", " ", 
+  RowBox[{"names", "=", 
    RowBox[{"data", "[", 
     RowBox[{"[", 
-     RowBox[{"All", ",", 
-      RowBox[{"1", ";;", 
-       RowBox[{
-        RowBox[{"Length", "[", 
-         RowBox[{"data", "[", 
-          RowBox[{"[", "1", "]"}], "]"}], "]"}], "-", "1"}]}]}], "]"}], 
-    "]"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"1", ",", 
+      RowBox[{"2", ";;"}]}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"times", "=", 
    RowBox[{"data", "[", 
@@ -51,11 +46,50 @@ Cell[BoxData[{
       RowBox[{"2", ";;"}], ",", "1"}], "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"names", "=", 
+  RowBox[{"data", "=", 
    RowBox[{"data", "[", 
     RowBox[{"[", 
-     RowBox[{"1", ",", 
+     RowBox[{
+      RowBox[{"2", ";;"}], ",", 
       RowBox[{"2", ";;"}]}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"emptyData", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Table", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"Or", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"data", "[", 
+              RowBox[{"[", "j", "]"}], "]"}], "]"}], "<", "i"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"StringLength", "[", 
+             RowBox[{"ToString", "[", 
+              RowBox[{"data", "[", 
+               RowBox[{"[", 
+                RowBox[{"j", ",", "i"}], "]"}], "]"}], "]"}], "]"}], 
+            "\[Equal]", "0"}]}], "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"data", "[", 
+          RowBox[{"[", 
+           RowBox[{"j", ",", "i"}], "]"}], "]"}]}], "]"}], 
+       "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"Length", "[", "names", "]"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"j", ",", 
+       RowBox[{"Length", "[", "data", "]"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"data", "=", "emptyData"}], ";"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"lastNamesWithParty", "=", 
    RowBox[{
@@ -83,16 +117,8 @@ Cell[BoxData[{
         RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", "names"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"Clear", "[", "split", "]"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"data", "=", 
-    RowBox[{"data", "[", 
-     RowBox[{"[", 
-      RowBox[{
-       RowBox[{"2", ";;"}], ",", 
-       RowBox[{"2", ";;"}]}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"Clear", "[", "split", "]"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
   RowBox[{"(*", " ", 
    RowBox[{
    "A", " ", "function", " ", "that", " ", "finds", " ", "the", " ", 
@@ -218,60 +244,16 @@ Cell[BoxData[{
      "\"\<Overnight Change (Percentage)\>\""}], "}"}]}], 
   ";"}], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQA2IwLbTISkTjtWPOuiAbEK22Rel8EJAOkfW7CqLf/09l
-DAbSQl/TmUD0EqkP7CD6q+BKDhD9RtFXEERnZeZKgeg8V24NEL17+WFtEP0g
-k9MCROs9CQgE0YcUZEJBdJh5UQyIvhdiczAMSPtvcALTajtbj4FoO1OtUyB6
-UVXxORA9reTCFRC9jSP0FoiWm7HpLoh+pFDxDETvW3L5BYgu1XP9Wwuk6+a/
-YKoD0i3HvgiB6N3m0aIgOuDifmkQ7VFRLwuinRlaLEF0+YtaBxBtNyXWBUR3
-Za8KBtHPNrncAdHfLLTug+hzFbor6oH0CQkvMC224GP7GiDdpKvQC6IlYl+u
-LdN87dj2LGMdiAYA1/WfcQ==
+1:eJwdxVkow3EAB/DZA5NSWyyNsSnXFi9Lw7SchZpjhxR7UYs5y7lkW2mjlDc5
+nkiEYWnJnTOSshFeNEea9XfEyHghft//w6ePsLpZqWMyGIwYAnM5Exlhic/Z
+DXZlJo5finUpyWp+8SV++9MFqMgcfw0TT/J8QdjPnmXhF6GCjev0jTzclB+S
+iDem98X4Th+chlM8pWV4TxClweXSlip8o87cLSeXLObQx69ZD7E8VXSMJ7pa
+nXio7fQCL7M0Vzh6xHGN7wUGL96aPKdwe0r+r5FsGqOYJrLl8JODN6SV4bj0
+bDsSFxjMfJzLsKTjTsqYheWD2jzcX29TYa8jz42/0kS32GlInjGTjyKK6Lnj
+733z5J5kwQCO0D4udCQ9Z/d6a+1YHGhZPSH/jMoOsLpQ5cKVZVZ6W3fCDf6g
+uh5w1VztC/Y9SV7xsHjajwXBzG/skflCneTNTRMbKyhjNK6bWqFf74mNw9yK
+Fvodt0eC2/gU/T9Wm+qg
   "]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"style", "=", 
-  RowBox[{"Join", "[", 
-   RowBox[{
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"Thickness", "[", "0.005", "]"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"i", ",", 
-        RowBox[{"Length", "[", "names", "]"}]}], "}"}]}], "]"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"Thickness", "[", "0.02", "]"}], "}"}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.645677191712286*^9, 3.64567719529748*^9}, {
-  3.6456772386226377`*^9, 3.645677305431053*^9}, {3.645677347250041*^9, 
-  3.64567736592706*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.005`", "]"}], ",", 
-   RowBox[{"Thickness", "[", "0.02`", "]"}]}], "}"}]], "Output",
- CellChangeTimes->{{3.645677272496604*^9, 3.645677306259857*^9}, {
-  3.645677348881506*^9, 3.645677366292596*^9}}]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -390,72 +372,75 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`option$$ = 3, $CellContext`scale$$ = 
-    1, $CellContext`selection$$ = {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-    18, 19, 20}, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+    1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 22}, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`option$$], 1}, {
       1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
        "Overnight Change (Percentage)"}}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
-        13, 14, 15, 16, 17, 18, 19, 
-       20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
-        19, 20} -> "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-        20} -> "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}, {{
+        13, 14, 15, 16, 17, 18, 19, 20, 21, 
+       22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+        19, 20, 21, 22} -> 
+       "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
+       "Republicans", {1, 2, 3, 4, 5, 6, 22} -> "Democrats"}}, {{
        Hold[$CellContext`scale$$], 1}, {1 -> "Normal", 2 -> "Log"}}}, 
-    Typeset`size$$ = {561., {116., 121.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {456., {118., 123.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`option$19798$$ = 
-    False, $CellContext`selection$19799$$ = 
-    False, $CellContext`scale$19800$$ = False}, 
+    True, $CellContext`option$154431$$ = 
+    False, $CellContext`selection$154432$$ = 
+    False, $CellContext`scale$154433$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 1, $CellContext`scale$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20}}, "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$19798$$, False], 
-        Hold[$CellContext`selection$$, $CellContext`selection$19799$$, False], 
-        Hold[$CellContext`scale$$, $CellContext`scale$19800$$, False]}, 
+         13, 14, 15, 16, 17, 18, 19, 20, 21, 22}}, "ControllerVariables" :> {
+        Hold[$CellContext`option$$, $CellContext`option$154431$$, False], 
+        Hold[$CellContext`selection$$, $CellContext`selection$154432$$, 
+         False], 
+        Hold[$CellContext`scale$$, $CellContext`scale$154433$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, 
-      "Body" :> ($CellContext`labels$19797 = 
+      "Body" :> ($CellContext`labels$154429 = 
         If[
          Length[$CellContext`selection$$] == 
           Length[$CellContext`names], $CellContext`lastNamesWithParty, \
-$CellContext`lastNamesWithoutParty]; $CellContext`plotLabel$19797 = 
+$CellContext`lastNamesWithoutParty]; $CellContext`plotLabel$154429 = 
         Part[$CellContext`titles, $CellContext`option$$]; \
-$CellContext`graph$19797 = If[$CellContext`option$$ == 1, $CellContext`data, 
+$CellContext`graph$154429 = 
+        If[$CellContext`option$$ == 1, $CellContext`data, 
           
           If[$CellContext`option$$ == 
            2, $CellContext`absoluteDiffData, $CellContext`percentDiffData]]; \
-$CellContext`graphTimes$19797 = 
+$CellContext`graphTimes$154429 = 
         If[$CellContext`option$$ == 1, $CellContext`times, 
           Part[$CellContext`times, 
-           Span[2, All]]]; $CellContext`fn$19797 = 
+           Span[2, All]]]; $CellContext`fn$154429 = 
         If[$CellContext`scale$$ == 1, DateListPlot, 
-          DateListLogPlot]; $CellContext`fn$19797[
+          DateListLogPlot]; $CellContext`fn$154429[
          $CellContext`ConvertToTimes[
           
-          Part[$CellContext`graph$19797, 
-           All, $CellContext`selection$$], $CellContext`graphTimes$19797], 
+          Part[$CellContext`graph$154429, 
+           All, $CellContext`selection$$], $CellContext`graphTimes$154429], 
          PlotLegends -> 
-         Part[$CellContext`labels$19797, $CellContext`selection$$], 
-         PlotLabel -> $CellContext`plotLabel$19797, PlotRange -> All]), 
+         Part[$CellContext`labels$154429, $CellContext`selection$$], 
+         PlotLabel -> $CellContext`plotLabel$154429, PlotRange -> All]), 
       "Specifications" :> {{{$CellContext`option$$, 1}, {
          1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
           "Overnight Change (Percentage)"}}, {{$CellContext`selection$$, {1, 
-          2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-          20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-           18, 19, 20} -> 
-          "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20} -> 
-          "Republicans", {1, 2, 3, 4, 5, 6} -> 
+          2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
+          21, 22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+           17, 18, 19, 20, 21, 22} -> 
+          "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
+          "Republicans", {1, 2, 3, 4, 5, 6, 22} -> 
           "Democrats"}}, {{$CellContext`scale$$, 1}, {
          1 -> "Normal", 2 -> "Log"}}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{606., {184., 189.}},
+     ImageSizeCache->{501., {186., 191.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -466,7 +451,8 @@ $CellContext`graphTimes$19797 =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.645679349448709*^9}]
+ CellChangeTimes->{3.645679349448709*^9, 3.645793678660323*^9, 
+  3.64579655699692*^9, 3.645796774356104*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -475,8 +461,9 @@ Cell[BoxData[
  RowBox[{"Module", "[", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"labels", ",", "plotLabel", ",", "graph", ",", "graphTimes"}], 
-    "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+    "labels", ",", "plotLabel", ",", "graph", ",", "graphTimes", ",", 
+     "totalLikes", ",", "labelfn"}], "}"}], ",", "\[IndentingNewLine]", 
    RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
     RowBox[{
      RowBox[{
@@ -513,6 +500,44 @@ Cell[BoxData[
        RowBox[{"Min", "[", 
         RowBox[{"timestamp", ",", 
          RowBox[{"Length", "[", "graphTimes", "]"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"totalLikes", "=", 
+       RowBox[{"Total", "[", 
+        RowBox[{"graph", "[", 
+         RowBox[{"[", 
+          RowBox[{"timestamp", ",", "selection"}], "]"}], "]"}], "]"}]}], ";",
+       "\[IndentingNewLine]", 
+      RowBox[{"labelfn", "=", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"show", "\[Equal]", "1"}], ",", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"Placed", "[", 
+            RowBox[{
+             RowBox[{"Row", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"NumberForm", "[", 
+                 RowBox[{
+                  RowBox[{"IntegerPart", "[", 
+                   RowBox[{"#", "/", "1000"}], "]"}], ",", 
+                  RowBox[{"DigitBlock", "\[Rule]", "3"}]}], "]"}], ",", 
+                "\"\<k\>\""}], "}"}], "]"}], ",", "\"\<RadialCenter\>\""}], 
+            "]"}], "&"}], ")"}], ",", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"Placed", "[", 
+            RowBox[{
+             RowBox[{"Row", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"N", "[", 
+                  RowBox[{
+                   RowBox[{"#", "/", "totalLikes"}], ",", "3"}], "]"}], "*", 
+                 "100"}], ",", "\"\<%\>\""}], "}"}], "]"}], ",", 
+             "\"\<RadialCenter\>\""}], "]"}], "&"}], ")"}]}], "]"}]}], ";", 
       "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{"PieChart", "[", 
        RowBox[{
@@ -520,13 +545,19 @@ Cell[BoxData[
          RowBox[{"[", 
           RowBox[{"timestamp", ",", "selection"}], "]"}], "]"}], ",", 
         RowBox[{"ChartLabels", "\[Rule]", 
-         RowBox[{"labels", "[", 
-          RowBox[{"[", "selection", "]"}], "]"}]}], ",", 
+         RowBox[{"Placed", "[", 
+          RowBox[{
+           RowBox[{"labels", "[", 
+            RowBox[{"[", "selection", "]"}], "]"}], ",", 
+           "\"\<RadialCallout\>\""}], "]"}]}], ",", 
         RowBox[{"PlotLabel", "\[Rule]", 
          RowBox[{"plotLabel", "<>", "\"\<\\n\>\"", "<>", 
           RowBox[{"graphTimes", "[", 
-           RowBox[{"[", "timestamp", "]"}], "]"}]}]}]}], "]"}]}], ",", 
-     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+           RowBox[{"[", "timestamp", "]"}], "]"}]}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"LabelingFunction", "\[Rule]", "labelfn"}]}], 
+       "\[IndentingNewLine]", "]"}]}], ",", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
      RowBox[{"{", 
       RowBox[{
        RowBox[{"{", 
@@ -564,25 +595,33 @@ Cell[BoxData[
             RowBox[{"Length", "[", "names", "]"}]}], "]"}], "\[Rule]", " ", 
           "\"\<All\>\""}], ",", 
          RowBox[{"reps", "\[Rule]", "\"\<Republicans\>\""}], ",", 
-         RowBox[{"dems", "\[Rule]", "\"\<Democrats\>\""}]}], "}"}]}], "}"}]}],
-     "]"}]}], "\[IndentingNewLine]", "]"}]], "Input",
- CellChangeTimes->{{3.645109474925901*^9, 3.645109495865718*^9}, {
-  3.645109571244721*^9, 3.6451095737995367`*^9}, {3.645109899320365*^9, 
-  3.645109905397447*^9}, {3.64511061445592*^9, 3.645110749581584*^9}, {
-  3.6451107808903837`*^9, 3.645110874420084*^9}, {3.645110920067075*^9, 
-  3.6451109636217937`*^9}, {3.6451110024838448`*^9, 3.6451110043727627`*^9}, {
-  3.645111037627595*^9, 3.645111045994429*^9}, {3.6451112235174227`*^9, 
-  3.6451112637531023`*^9}, {3.64511130062152*^9, 3.6451113239567413`*^9}, {
-  3.645111498875022*^9, 3.64511149931291*^9}, {3.64511153518393*^9, 
-  3.6451115443849277`*^9}, {3.645112861651732*^9, 3.645112867518779*^9}, {
-  3.6451482229834013`*^9, 3.6451482281572037`*^9}}],
+         RowBox[{"dems", "\[Rule]", "\"\<Democrats\>\""}]}], "}"}]}], "}"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"show", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"1", "\[Rule]", "\"\<Total Likes\>\""}], ",", 
+         RowBox[{"2", "\[Rule]", "\"\<Percent Share\>\""}]}], "}"}]}], 
+      "}"}]}], "]"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBWIQ/XtB7Jw6jdeO3zb/ngeiD15JXwGiz03dCabzHLIu
+gujH23Uugehn085p1QPpsDmbrEE0W90cexAdUujrDaKrVJkCQfSep8VhIHpF
+tX80iF7zthtMO4luiQfRsZf2J4DoXX0fykB0luSPahBd93hyA4heMLeuGUTr
+McTMBNExzFlg+uCjp3PB9gXyzAfRf29tcW4A0tdmFriAaLaK++0TgfQF9tYO
+EC0wLfLEGc3Xjr8CDE+C6KmM16+A6Kbnn+6D6JDSJS9A9LSIk29A9NYcuY8g
+elbADcazQFrf4QUbiNaauVUERL+w/SsJov9Iu0uDaJMPHxTB6t7+BtMAoXar
+fg==
+  "]],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`option$$ = 3, $CellContext`selection$$ = {1,
-     2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-    20}, $CellContext`timestamp$$ = 9, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`option$$ = 1, $CellContext`selection$$ = {7,
+     8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}, $CellContext`show$$ = 
+    1, $CellContext`timestamp$$ = 11, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -597,45 +636,61 @@ Cell[BoxData[
         13, 14, 15, 16, 17, 18, 19, 
        20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
         19, 20} -> "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-        20} -> "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
-    Typeset`size$$ = {360., {194., 199.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`option$34071$$ = 
-    False, $CellContext`timestamp$34072$$ = 
-    0, $CellContext`selection$34073$$ = False}, 
+        20} -> "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}, {{
+       Hold[$CellContext`show$$], 1}, {
+      1 -> "Total Likes", 2 -> "Percent Share"}}}, Typeset`size$$ = {
+    360., {194., 198.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`option$50589$$ = 
+    False, $CellContext`timestamp$50590$$ = 
+    0, $CellContext`selection$50591$$ = False, $CellContext`show$50592$$ = 
+    False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20}, $CellContext`timestamp$$ = 1}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$34071$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$34072$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$34073$$, 
-         False]}, 
+         13, 14, 15, 16, 17, 18, 19, 20}, $CellContext`show$$ = 
+        1, $CellContext`timestamp$$ = 1}, "ControllerVariables" :> {
+        Hold[$CellContext`option$$, $CellContext`option$50589$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$50590$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$50591$$, False], 
+        Hold[$CellContext`show$$, $CellContext`show$50592$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, 
-      "Body" :> ($CellContext`plotLabel$34070 = 
+      "Body" :> ($CellContext`plotLabel$50588 = 
         Part[$CellContext`titles, $CellContext`option$$]; \
-$CellContext`graph$34070 = If[$CellContext`option$$ == 1, $CellContext`data, 
+$CellContext`graph$50588 = If[$CellContext`option$$ == 1, $CellContext`data, 
           If[$CellContext`option$$ == 2, $CellContext`absoluteDiffData, 
-           N[$CellContext`percentDiffData]]]; $CellContext`graphTimes$34070 = 
+           N[$CellContext`percentDiffData]]]; $CellContext`graphTimes$50588 = 
         If[$CellContext`option$$ == 1, $CellContext`times, 
           Part[$CellContext`times, 
-           Span[2, All]]]; $CellContext`labels$34070 = 
+           Span[2, All]]]; $CellContext`labels$50588 = 
         If[Length[$CellContext`selection$$] == 
           Length[$CellContext`names], $CellContext`lastNamesWithParty, \
 $CellContext`lastNamesWithoutParty]; $CellContext`timestamp$$ = 
         Min[$CellContext`timestamp$$, 
-          Length[$CellContext`graphTimes$34070]]; PieChart[
-         Part[$CellContext`graph$34070, $CellContext`timestamp$$, \
-$CellContext`selection$$], ChartLabels -> 
-         Part[$CellContext`labels$34070, $CellContext`selection$$], PlotLabel -> 
-         StringJoin[$CellContext`plotLabel$34070, "\n", 
-           Part[$CellContext`graphTimes$34070, $CellContext`timestamp$$]]]), 
+          
+          Length[$CellContext`graphTimes$50588]]; \
+$CellContext`totalLikes$50588 = Total[
+          
+          Part[$CellContext`graph$50588, $CellContext`timestamp$$, \
+$CellContext`selection$$]]; $CellContext`labelfn$50588 = 
+        If[$CellContext`show$$ == 1, Placed[
+           Row[{
+             NumberForm[
+              IntegerPart[#/1000], DigitBlock -> 3], "k"}], "RadialCenter"]& ,
+           Placed[
+           Row[{N[#/$CellContext`totalLikes$50588, 3] 100, "%"}], 
+           "RadialCenter"]& ]; PieChart[
+         Part[$CellContext`graph$50588, $CellContext`timestamp$$, \
+$CellContext`selection$$], ChartLabels -> Placed[
+           Part[$CellContext`labels$50588, $CellContext`selection$$], 
+           "RadialCallout"], PlotLabel -> 
+         StringJoin[$CellContext`plotLabel$50588, "\n", 
+           Part[$CellContext`graphTimes$50588, $CellContext`timestamp$$]], 
+         LabelingFunction -> $CellContext`labelfn$50588]), 
       "Specifications" :> {{{$CellContext`option$$, 1}, {
          1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
           "Overnight Change (Percentage)"}}, {$CellContext`timestamp$$, 1, 
@@ -647,9 +702,11 @@ $CellContext`selection$$], ChartLabels ->
           20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
            18, 19, 20} -> 
           "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20} -> 
-          "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
-      "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{429., {263., 268.}},
+          "Republicans", {1, 2, 3, 4, 5, 6} -> 
+          "Democrats"}}, {{$CellContext`show$$, 1}, {
+         1 -> "Total Likes", 2 -> "Percent Share"}}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{429., {275., 280.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -660,16 +717,8 @@ $CellContext`selection$$], ChartLabels ->
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{
-  3.64510950071681*^9, 3.645109574816538*^9, 3.645109909144095*^9, 
-   3.645110751111864*^9, {3.6451107971298532`*^9, 3.645110831065131*^9}, {
-   3.645110871112337*^9, 3.645110876503956*^9}, 3.645110938664485*^9, 
-   3.6451110059051723`*^9, 3.645111048228339*^9, 3.645111326357705*^9, 
-   3.6451115135988207`*^9, 3.645111545060368*^9, 3.6451117411457653`*^9, 
-   3.645112868151469*^9, 3.645114023043494*^9, 3.645123125879065*^9, 
-   3.645148228790224*^9, 3.645234562522478*^9, 3.645321163753051*^9, 
-   3.645464756916127*^9, 3.645528506386417*^9, 3.6456175633395643`*^9, 
-   3.645673462803124*^9}]
+ CellChangeTimes->{3.645794470397399*^9, 3.6457945225675783`*^9, 
+  3.645794576292165*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -845,8 +894,8 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`order$$ = 1, $CellContext`selection$$ = {1, 
-    2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-    20}, $CellContext`sort$$ = 3, $CellContext`timestamp$$ = 9, 
+    2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
+    22}, $CellContext`sort$$ = 1, $CellContext`timestamp$$ = 1, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -855,41 +904,42 @@ Cell[BoxData[
        "Overnight Change (Percentage)"}}, {{
        Hold[$CellContext`order$$], 1}, {
       1 -> "Descending", 2 -> "Ascending"}}, {
-      Hold[$CellContext`timestamp$$], 1, 9, 1}, {{
+      Hold[$CellContext`timestamp$$], 1, 10, 1}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
-        13, 14, 15, 16, 17, 18, 19, 
-       20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
-        19, 20} -> "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
-        20} -> "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
-    Typeset`size$$ = {497., {184., 225.}}, Typeset`update$$ = 0, 
+        13, 14, 15, 16, 17, 18, 19, 20, 21, 
+       22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+        19, 20, 21, 22} -> 
+       "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
+       "Republicans", {1, 2, 3, 4, 5, 6, 22} -> "Democrats"}}}, 
+    Typeset`size$$ = {497., {201., 242.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`sort$35490$$ = False, $CellContext`order$35491$$ = 
-    False, $CellContext`timestamp$35492$$ = 
-    0, $CellContext`selection$35493$$ = False}, 
+    True, $CellContext`sort$169357$$ = False, $CellContext`order$169358$$ = 
+    False, $CellContext`timestamp$169359$$ = 
+    0, $CellContext`selection$169360$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`order$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20}, $CellContext`sort$$ = 
+         13, 14, 15, 16, 17, 18, 19, 20, 21, 22}, $CellContext`sort$$ = 
         1, $CellContext`timestamp$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`sort$$, $CellContext`sort$35490$$, False], 
-        Hold[$CellContext`order$$, $CellContext`order$35491$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$35492$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$35493$$, 
+        Hold[$CellContext`sort$$, $CellContext`sort$169357$$, False], 
+        Hold[$CellContext`order$$, $CellContext`order$169358$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$169359$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$169360$$, 
          False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, 
-      "Body" :> ($CellContext`plotLabel$35489 = 
+      "Body" :> ($CellContext`plotLabel$169356 = 
         Part[$CellContext`titles, $CellContext`sort$$]; \
-$CellContext`graph$35489 = If[$CellContext`sort$$ == 1, $CellContext`data, 
+$CellContext`graph$169356 = If[$CellContext`sort$$ == 1, $CellContext`data, 
           If[$CellContext`sort$$ == 2, $CellContext`absoluteDiffData, 
-           N[$CellContext`percentDiffData]]]; $CellContext`labels$35489 = 
+           N[$CellContext`percentDiffData]]]; $CellContext`labels$169356 = 
         If[Length[$CellContext`selection$$] == 
           Length[$CellContext`names], $CellContext`lastNamesWithParty, \
-$CellContext`lastNamesWithoutParty]; $CellContext`tableData$35489 = Table[{
+$CellContext`lastNamesWithoutParty]; $CellContext`tableData$169356 = Table[{
            
            Part[$CellContext`data, $CellContext`timestamp$$ + 
             1, $CellContext`i], 
@@ -904,21 +954,21 @@ $CellContext`i],
             Part[$CellContext`percentDiffData, $CellContext`timestamp$$, \
 $CellContext`i] 100], 
             "%"]}, {$CellContext`i, $CellContext`selection$$}]; \
-$CellContext`ordering$35489 = If[$CellContext`sort$$ == 0, 
+$CellContext`ordering$169356 = If[$CellContext`sort$$ == 0, 
           Ordering[
-           Part[$CellContext`labels$35489, $CellContext`selection$$]], 
+           Part[$CellContext`labels$169356, $CellContext`selection$$]], 
           
-          Ordering[$CellContext`tableData$35489, All, 
+          Ordering[$CellContext`tableData$169356, All, 
            Part[#, $CellContext`sort$$] > 
-           Part[#2, $CellContext`sort$$]& ]]; $CellContext`ordering$35489 = 
-        If[$CellContext`order$$ == 1, $CellContext`ordering$35489, 
-          Reverse[$CellContext`ordering$35489]]; Labeled[
+           Part[#2, $CellContext`sort$$]& ]]; $CellContext`ordering$169356 = 
+        If[$CellContext`order$$ == 1, $CellContext`ordering$169356, 
+          Reverse[$CellContext`ordering$169356]]; Labeled[
          TableForm[
           
-          Part[$CellContext`tableData$35489, $CellContext`ordering$35489, {1, 
-           2, 4}], TableHeadings -> {
-            Part[$CellContext`labels$35489, 
-             Part[$CellContext`selection$$, $CellContext`ordering$35489]], {
+          Part[$CellContext`tableData$169356, $CellContext`ordering$169356, {
+           1, 2, 4}], TableHeadings -> {
+            Part[$CellContext`labels$169356, 
+             Part[$CellContext`selection$$, $CellContext`ordering$169356]], {
             "Total Likes", "Overnight Gains\n(Absolute)", 
              "Overnight Gains\n(Percentage)"}}], 
          StringJoin["Likes as of ", 
@@ -927,15 +977,15 @@ $CellContext`ordering$35489 = If[$CellContext`sort$$ == 0,
          0 -> "Name", 1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 
           3 -> "Overnight Change (Percentage)"}}, {{$CellContext`order$$, 
           1}, {1 -> "Descending", 2 -> 
-          "Ascending"}}, {$CellContext`timestamp$$, 1, 9, 
+          "Ascending"}}, {$CellContext`timestamp$$, 1, 10, 
          1}, {{$CellContext`selection$$, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
-          12, 13, 14, 15, 16, 17, 18, 19, 
-          20}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-           18, 19, 20} -> 
-          "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20} -> 
-          "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
+          12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
+          22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
+           18, 19, 20, 21, 22} -> 
+          "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
+          "Republicans", {1, 2, 3, 4, 5, 6, 22} -> "Democrats"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{542., {284., 289.}},
+     ImageSizeCache->{542., {301., 306.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -959,7 +1009,8 @@ $CellContext`ordering$35489 = If[$CellContext`sort$$ == 0,
    3.645115869227529*^9, 3.6451158942222757`*^9}, 3.6451231287662973`*^9, 
    3.6451482883734713`*^9, 3.6452346453333063`*^9, 3.645273268477652*^9, 
    3.645321225403405*^9, 3.645445230234026*^9, 3.6454648244680634`*^9, 
-   3.645617576400185*^9, 3.6456734995744953`*^9, 3.645679376458247*^9}]
+   3.645617576400185*^9, 3.6456734995744953`*^9, 3.645679376458247*^9, 
+   3.645793696706963*^9, 3.6457968039840117`*^9}]
 }, Open  ]]
 },
 WindowSize->{720, 802},
@@ -979,22 +1030,18 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 7057, 207, 573, "Input"],
+Cell[558, 20, 8219, 235, 743, "Input"],
 Cell[CellGroupData[{
-Cell[7640, 231, 541, 14, 28, "Input"],
-Cell[8184, 247, 1259, 25, 114, "Output"]
+Cell[8802, 259, 4232, 109, 386, "Input"],
+Cell[13037, 370, 4396, 84, 394, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9480, 277, 4232, 109, 369, "Input"],
-Cell[13715, 388, 4261, 80, 424, "Output"]
+Cell[17470, 459, 6093, 157, 522, "Input"],
+Cell[23566, 618, 5419, 102, 572, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18013, 473, 4364, 104, 352, "Input"],
-Cell[22380, 579, 5060, 92, 548, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[27477, 676, 6634, 165, 522, "Input"],
-Cell[34114, 843, 6477, 118, 590, "Output"]
+Cell[29022, 725, 6634, 165, 522, "Input"],
+Cell[35659, 892, 6622, 120, 658, "Output"]
 }, Open  ]]
 }
 ]
