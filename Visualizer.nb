@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     99168,       2419]
-NotebookOptionsPosition[     97464,       2356]
-NotebookOutlinePosition[     97817,       2372]
-CellTagsIndexPosition[     97774,       2369]
+NotebookDataLength[     64601,       1642]
+NotebookOptionsPosition[     63092,       1586]
+NotebookOutlinePosition[     63449,       1602]
+CellTagsIndexPosition[     63406,       1599]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -521,11 +521,12 @@ TSEYrxB96fJJyb7NGIf/dmr0Og==
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`option$$ = 1, $CellContext`scale$$ = 
-    1, $CellContext`selection$$ = {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-    18, 19, 20, 21}, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+   DynamicModuleBox[{$CellContext`option$$ = 2, $CellContext`scale$$ = 
+    1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 
+    14, 15, 16, 17, 18, 19, 20, 21}, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`option$$], 1}, {
       1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
        "Overnight Change (Percentage)"}}, {{
@@ -536,19 +537,19 @@ Cell[BoxData[
        "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
        "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}, {{
        Hold[$CellContext`scale$$], 1}, {1 -> "Normal", 2 -> "Log"}}}, 
-    Typeset`size$$ = {561., {113., 118.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`option$31012$$ = 
-    False, $CellContext`selection$31013$$ = 
-    False, $CellContext`scale$31014$$ = False}, 
+    Typeset`size$$ = {388.6025390625, {20.19921875, 9.80078125}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`option$1099$$ = False, $CellContext`selection$1100$$ = 
+    False, $CellContext`scale$1101$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 1, $CellContext`scale$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
          13, 14, 15, 16, 17, 18, 19, 20, 21}}, "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$31012$$, False], 
-        Hold[$CellContext`selection$$, $CellContext`selection$31013$$, False], 
-        Hold[$CellContext`scale$$, $CellContext`scale$31014$$, False]}, 
+        Hold[$CellContext`option$$, $CellContext`option$1099$$, False], 
+        Hold[$CellContext`selection$$, $CellContext`selection$1100$$, False], 
+        
+        Hold[$CellContext`scale$$, $CellContext`scale$1101$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -567,7 +568,7 @@ $CellContext`selection$$, $CellContext`scale$$],
           "Democrats"}}, {{$CellContext`scale$$, 1}, {
          1 -> "Normal", 2 -> "Log"}}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{606., {181., 186.}},
+     ImageSizeCache->{434., {81., 86.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -582,7 +583,8 @@ $CellContext`selection$$, $CellContext`scale$$],
   3.645679349448709*^9, 3.645793678660323*^9, 3.64579655699692*^9, 
    3.645796774356104*^9, 3.6458847486392384`*^9, 3.645887520935184*^9, {
    3.646065213114814*^9, 3.6460652426741943`*^9}, 3.646098730505649*^9, 
-   3.6461300584805527`*^9, 3.6461301020235243`*^9, 3.646130148773313*^9}]
+   3.6461300584805527`*^9, 3.6461301020235243`*^9, 3.646130148773313*^9, 
+   3.646191445185976*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -805,9 +807,9 @@ dh6YYHZJ2xxMX1ctwX9ZhfBy
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`option$$ = 2, $CellContext`selection$$ = {1,
+   DynamicModuleBox[{$CellContext`option$$ = 1, $CellContext`selection$$ = {1,
      2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
-    21}, $CellContext`timestamp$$ = 1, Typeset`show$$ = True, 
+    21}, $CellContext`timestamp$$ = 16, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -824,19 +826,20 @@ Cell[BoxData[
         19, 20, 21} -> 
        "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
        "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, Typeset`size$$ = {
-    360., {194., 198.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`option$80358$$ = 
-    False, $CellContext`timestamp$80359$$ = 
-    0, $CellContext`selection$80360$$ = False}, 
+    388.6025390625, {20.19921875, 9.80078125}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`option$12331$$ = 
+    False, $CellContext`timestamp$12332$$ = 
+    0, $CellContext`selection$12333$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
          13, 14, 15, 16, 17, 18, 19, 20, 21}, $CellContext`timestamp$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$80358$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$80359$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$80360$$, 
+        Hold[$CellContext`option$$, $CellContext`option$12331$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$12332$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$12333$$, 
          False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
@@ -859,7 +862,7 @@ $CellContext`timestamp$$, $CellContext`selection$$],
           "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
           "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{443., {263., 268.}},
+     ImageSizeCache->{443., {82., 87.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -872,7 +875,7 @@ $CellContext`timestamp$$, $CellContext`selection$$],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.646130805893429*^9, 3.646130812819532*^9}, {
    3.646130971803409*^9, 3.6461310003734827`*^9}, 3.6461311994416857`*^9, {
-   3.646131312450659*^9, 3.646131347545167*^9}}]
+   3.646131312450659*^9, 3.646131347545167*^9}, 3.646191452877043*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1091,7 +1094,8 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`order$$ = 1, $CellContext`selection$$ = {1, 
-    2, 3, 4, 5, 6}, $CellContext`sort$$ = 1, $CellContext`timestamp$$ = 14, 
+    2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
+    21}, $CellContext`sort$$ = 1, $CellContext`timestamp$$ = 15, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -1100,30 +1104,28 @@ Cell[BoxData[
        "Overnight Change (Percentage)"}}, {{
        Hold[$CellContext`order$$], 1}, {
       1 -> "Descending", 2 -> "Ascending"}}, {
-      Hold[$CellContext`timestamp$$], 1, 14, 1}, {{
+      Hold[$CellContext`timestamp$$], 1, 15, 1}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
         13, 14, 15, 16, 17, 18, 19, 20, 
        21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
         19, 20, 21} -> 
        "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
        "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, Typeset`size$$ = {
-    465., {65., 106.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`sort$42399$$ = 
-    False, $CellContext`order$42400$$ = 
-    False, $CellContext`timestamp$42401$$ = 
-    0, $CellContext`selection$42402$$ = False}, 
+    497., {192., 234.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`sort$1678$$ = 
+    False, $CellContext`order$1679$$ = False, $CellContext`timestamp$1680$$ = 
+    0, $CellContext`selection$1681$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`order$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
          13, 14, 15, 16, 17, 18, 19, 20, 21}, $CellContext`sort$$ = 
         1, $CellContext`timestamp$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`sort$$, $CellContext`sort$42399$$, False], 
-        Hold[$CellContext`order$$, $CellContext`order$42400$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$42401$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$42402$$, 
-         False]}, 
-      "OtherVariables" :> {
+        Hold[$CellContext`sort$$, $CellContext`sort$1678$$, False], 
+        Hold[$CellContext`order$$, $CellContext`order$1679$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$1680$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$1681$$, False]},
+       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
@@ -1134,7 +1136,7 @@ $CellContext`order$$, $CellContext`timestamp$$, $CellContext`selection$$],
          0 -> "Name", 1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 
           3 -> "Overnight Change (Percentage)"}}, {{$CellContext`order$$, 
           1}, {1 -> "Descending", 2 -> 
-          "Ascending"}}, {$CellContext`timestamp$$, 1, 14, 
+          "Ascending"}}, {$CellContext`timestamp$$, 1, 15, 
          1}, {{$CellContext`selection$$, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
           12, 13, 14, 15, 16, 17, 18, 19, 20, 
           21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
@@ -1142,7 +1144,7 @@ $CellContext`order$$, $CellContext`timestamp$$, $CellContext`selection$$],
           "All", {7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21} -> 
           "Republicans", {1, 2, 3, 4, 5, 6} -> "Democrats"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{510., {165., 170.}},
+     ImageSizeCache->{542., {292., 297.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1169,7 +1171,8 @@ $CellContext`order$$, $CellContext`timestamp$$, $CellContext`selection$$],
    3.645617576400185*^9, 3.6456734995744953`*^9, 3.645679376458247*^9, 
    3.645793696706963*^9, 3.6457968039840117`*^9, 3.645887555797752*^9, 
    3.645973261282464*^9, 3.6460990659689007`*^9, 3.64609967612333*^9, {
-   3.646099741714452*^9, 3.646099746899149*^9}, 3.646130506834631*^9}]
+   3.646099741714452*^9, 3.646099746899149*^9}, 3.646130506834631*^9, 
+   3.646191461824786*^9, 3.6462257037215643`*^9}]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -1216,78 +1219,7 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"(", 
-    RowBox[{
-     RowBox[{"#", "[", 
-      RowBox[{"[", "1", "]"}], "]"}], "-", 
-     RowBox[{"#", "[", 
-      RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", 
-  RowBox[{"data", "[", 
-   RowBox[{"[", 
-    RowBox[{"All", ",", 
-     RowBox[{"{", 
-      RowBox[{"3", ",", "5"}], "}"}]}], "]"}], "]"}]}]], "Input",
- CellChangeTimes->{{3.6461347283846407`*^9, 3.646134808516405*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-  "275567", ",", "271750", ",", "272932", ",", "273954", ",", "271783", ",", 
-   "268264", ",", "263442", ",", "259983", ",", "256966", ",", "253795", ",", 
-   "250717", ",", "246060", ",", "239447", ",", "237657", ",", "234209"}], 
-  "}"}]], "Output",
- CellChangeTimes->{{3.646134749341552*^9, 3.646134808836506*^9}}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"ListPlot", "[", 
-  RowBox[{"{", 
-   RowBox[{
-   "275567", ",", "271750", ",", "272932", ",", "273954", ",", "271783", ",", 
-    "268264", ",", "263442", ",", "259983", ",", "256966", ",", "253795", ",",
-     "250717", ",", "246060", ",", "239447", ",", "237657", ",", "234209"}], 
-   "}"}], "]"}]], "Input",
- NumberMarks->False],
-
-Cell[BoxData[
- GraphicsBox[{{}, {{}, 
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
-      AbsoluteThickness[1.6], 
-     PointBox[{{1., 275567.}, {2., 271750.}, {3., 272932.}, {4., 273954.}, {
-      5., 271783.}, {6., 268264.}, {7., 263442.}, {8., 259983.}, {9., 
-      256966.}, {10., 253795.}, {11., 250717.}, {12., 246060.}, {13., 
-      239447.}, {14., 237657.}, {15., 234209.}}]}, {}}, {}},
-  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-  Axes->{True, True},
-  AxesLabel->{None, None},
-  AxesOrigin->{0, 232141.09999999998`},
-  DisplayFunction->Identity,
-  Frame->{{False, False}, {False, False}},
-  FrameLabel->{{None, None}, {None, None}},
-  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
-  GridLines->{None, None},
-  GridLinesStyle->Directive[
-    GrayLevel[0.5, 0.4]],
-  Method->{},
-  PlotRange->{{0., 15.}, {234209., 275567.}},
-  PlotRangeClipping->True,
-  PlotRangePadding->{{
-     Scaled[0.02], 
-     Scaled[0.02]}, {
-     Scaled[0.05], 
-     Scaled[0.05]}},
-  Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.6461348141270533`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{"DateListPlot", "[", 
   RowBox[{
    RowBox[{"Table", "[", 
@@ -1304,27 +1236,44 @@ Cell[BoxData[
          RowBox[{"[", 
           RowBox[{"i", ",", "5"}], "]"}], "]"}]}]}], "}"}], ",", 
      RowBox[{"{", 
-      RowBox[{"i", ",", 
+      RowBox[{"i", ",", "6", ",", 
        RowBox[{"Length", "[", "data", "]"}]}], "}"}]}], "]"}], ",", 
    RowBox[{"PlotLabel", "\[Rule]", "\"\<Clinton's Lead over Sanders\>\""}]}], 
-  "]"}]], "Input",
- CellChangeTimes->{{3.646134973237241*^9, 3.646135027734242*^9}}],
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"LinearModelFit", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"data", "[", 
+         RowBox[{"[", 
+          RowBox[{
+           RowBox[{"6", ";;", "16"}], ",", "3"}], "]"}], "]"}], "-", 
+        RowBox[{"data", "[", 
+         RowBox[{"[", 
+          RowBox[{
+           RowBox[{"6", ";;", "16"}], ",", "5"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", "x", "}"}], ",", "x"}], "]"}], "[", "\"\<BestFit\>\"", 
+     "]"}], "\[Equal]", "0"}], ",", "x"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.646134973237241*^9, 3.646135027734242*^9}, {
+  3.646226213197401*^9, 3.646226316217737*^9}, {3.646226362907496*^9, 
+  3.646226371334332*^9}, {3.646226469440448*^9, 3.646226499937051*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{}, {}, 
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
       AbsoluteThickness[1.6], 
-     LineBox[{{3.644873585*^9, 275567.}, {3.64495728*^9, 271750.}, {
-      3.64504368*^9, 272932.}, {3.64513008*^9, 273954.}, {3.64521648*^9, 
-      271783.}, {3.645303119*^9, 268264.}, {3.64542712*^9, 263442.}, {
+     LineBox[{{3.645303119*^9, 268264.}, {3.64542712*^9, 263442.}, {
       3.645510461*^9, 259983.}, {3.645562108*^9, 256966.}, {3.64564849*^9, 
       253795.}, {3.645734883*^9, 250717.}, {3.645821287*^9, 246060.}, {
       3.645954827*^9, 239447.}, {3.645994085*^9, 237657.}, {3.646080489*^9, 
-      234209.}}]}}, {}},
+      234209.}, {3.646166886*^9, 228893.}}]}}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{False, False},
   AxesLabel->{None, None},
-  AxesOrigin->{3.644873585*^9, 232141.09999999998`},
+  AxesOrigin->{3.645303119*^9, 226924.44999999998`},
   DisplayFunction->Identity,
   Frame->{{True, True}, {True, True}},
   FrameLabel->{{None, None}, {None, None}},
@@ -1341,52 +1290,13 @@ Cell[BoxData[
            SlotSequence[1]}], 
          Scaled[0.02]], Blank[String] :> Spacer[{0, 0}]]& )[
         SlotSequence[1]], {Identity, Identity}]& }}, {{
-     Automatic, Automatic}, {{{3.6451296*^9, 
-        FormBox["\"Jul 06\"", TraditionalForm]}, {3.6457344*^9, 
-        FormBox["\"Jul 13\"", TraditionalForm]}, {3.6463392*^9, 
-        FormBox["\"Jul 20\"", TraditionalForm]}, {3.6448704*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6449568*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6450432*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.645216*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6453024*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6453888*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6454752*^9, 
+     Automatic, Automatic}, {{{3.6453024*^9, 
+        FormBox["\"Jul 08\"", TraditionalForm]}, {3.6454752*^9, 
+        FormBox["\"Jul 10\"", TraditionalForm]}, {3.645648*^9, 
+        FormBox["\"Jul 12\"", TraditionalForm]}, {3.6458208*^9, 
+        FormBox["\"Jul 14\"", TraditionalForm]}, {3.6459936*^9, 
+        FormBox["\"Jul 16\"", TraditionalForm]}, {3.6461664*^9, 
+        FormBox["\"Jul 18\"", TraditionalForm]}, {3.6453888*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
@@ -1394,48 +1304,6 @@ Cell[BoxData[
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}]], TraditionalForm]}, {3.6455616*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.645648*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6458208*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459072*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459936*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.64608*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}}, {{3.6451296*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
@@ -1449,49 +1317,21 @@ Cell[BoxData[
            
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6463392*^9, 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459072*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
            
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6448704*^9, 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.64608*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
            
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6449568*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6450432*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.645216*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6453024*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6453888*^9, 
+          Spacer[{0., 0.}]], TraditionalForm]}}, {{3.6453024*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
@@ -1499,13 +1339,6 @@ Cell[BoxData[
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}]], TraditionalForm]}, {3.6454752*^9, 
-        FormBox[
-         InterpretationBox[
-          StyleBox[
-           
-           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-            Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6455616*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
@@ -1526,14 +1359,42 @@ Cell[BoxData[
            
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459072*^9, 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459936*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
            
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
-          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459936*^9, 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6461664*^9, 
+        FormBox[
+         InterpretationBox[
+          StyleBox[
+           
+           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
+            Baseline], "CacheGraphics" -> False], 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6453888*^9, 
+        FormBox[
+         InterpretationBox[
+          StyleBox[
+           
+           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
+            Baseline], "CacheGraphics" -> False], 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6455616*^9, 
+        FormBox[
+         InterpretationBox[
+          StyleBox[
+           
+           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
+            Baseline], "CacheGraphics" -> False], 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6457344*^9, 
+        FormBox[
+         InterpretationBox[
+          StyleBox[
+           
+           GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
+            Baseline], "CacheGraphics" -> False], 
+          Spacer[{0., 0.}]], TraditionalForm]}, {3.6459072*^9, 
         FormBox[
          InterpretationBox[
           StyleBox[
@@ -1553,7 +1414,7 @@ Cell[BoxData[
     GrayLevel[0.5, 0.4]],
   Method->{},
   PlotLabel->FormBox["\"Clinton's Lead over Sanders\"", TraditionalForm],
-  PlotRange->{{3.644873585*^9, 3.646080489*^9}, {234209., 275567.}},
+  PlotRange->{{3.645303119*^9, 3.646166886*^9}, {228893., 268264.}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
@@ -1561,801 +1422,170 @@ Cell[BoxData[
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{None, Automatic}]], "Output",
- CellChangeTimes->{{3.6461350005575438`*^9, 3.64613502968186*^9}}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"NonlinearModelFit", "[", 
-  RowBox[{
-   RowBox[{"Table", "[", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"i", ",", 
-       RowBox[{
-        RowBox[{"data", "[", 
-         RowBox[{"[", 
-          RowBox[{"i", ",", "3"}], "]"}], "]"}], "-", 
-        RowBox[{"data", "[", 
-         RowBox[{"[", 
-          RowBox[{"i", ",", "5"}], "]"}], "]"}]}]}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"i", ",", 
-       RowBox[{"Length", "[", "data", "]"}]}], "}"}]}], "]"}], ",", 
-   RowBox[{
-    RowBox[{"a", " ", "t"}], " ", "+", " ", "b"}], ",", " ", 
-   RowBox[{"{", 
-    RowBox[{"a", ",", "b"}], "}"}], ",", 
-   RowBox[{"{", "t", "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.6461350435004387`*^9, 3.646135077819715*^9}}],
+ CellChangeTimes->{{3.6461350005575438`*^9, 3.64613502968186*^9}, 
+   3.6462262083430643`*^9, 3.64622631802159*^9, 3.646226372068289*^9, {
+   3.646226491719595*^9, 3.646226501021179*^9}}],
 
 Cell[BoxData[
- TagBox[
-  RowBox[{"FittedModel", "[", 
-   TagBox[
-    PanelBox[
-     TagBox[
-      RowBox[{"283340.123809524`", "\[VeryThinSpace]", "-", 
-       RowBox[{"3113.132142857146`", " ", "t"}]}],
-      Short[#, 2]& ],
-     FrameMargins->5],
-    Editable -> False], "]"}],
-  InterpretTemplate[
-  FittedModel[{
-    "Nonlinear", {$CellContext`a -> -3113.132142857146, $CellContext`b -> 
-      283340.123809524}, {{$CellContext`t}, $CellContext`b + $CellContext`a \
-$CellContext`t}}, {1}, {{1, 275567}, {2, 271750}, {3, 272932}, {4, 273954}, {
-    5, 271783}, {6, 268264}, {7, 263442}, {8, 259983}, {9, 256966}, {10, 
-    253795}, {11, 250717}, {12, 246060}, {13, 239447}, {14, 237657}, {15, 
-    234209}}, 
-    Function[Null, 
-     Internal`LocalizedBlock[{$CellContext`a, $CellContext`b, \
-$CellContext`t}, #], {HoldAll}]]& ],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->True]], "Output",
- CellChangeTimes->{{3.646135058187289*^9, 3.646135078348262*^9}}]
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"x", "\[Rule]", "70.67974538294115`"}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6461350005575438`*^9, 3.64613502968186*^9}, 
+   3.6462262083430643`*^9, 3.64622631802159*^9, 3.646226372068289*^9, {
+   3.646226491719595*^9, 3.646226501060318*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"283", "/", "3"}], "//", "N"}]], "Input",
- CellChangeTimes->{{3.6461350978993587`*^9, 3.646135104040472*^9}}],
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"#", "[", 
+        RowBox[{"[", "1", "]"}], "]"}], ")"}], "/", 
+      RowBox[{"#", "[", 
+       RowBox[{"[", "2", "]"}], "]"}]}], "//", "N"}], ")"}], "&"}], "/@", 
+  RowBox[{"percentDiffData", "[", 
+   RowBox[{"[", 
+    RowBox[{"All", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"findIndex", "[", "\"\<Sanders\>\"", "]"}], ",", 
+       RowBox[{"findIndex", "[", "\"\<Clinton\>\"", "]"}]}], "}"}]}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.646225833995219*^9, 3.646225930733596*^9}, {
+  3.6462260595494623`*^9, 3.646226065524973*^9}, {3.646226132406165*^9, 
+  3.646226133147809*^9}, {3.646226200630908*^9, 3.646226202330082*^9}}],
 
-Cell[BoxData["94.33333333333333`"], "Output",
- CellChangeTimes->{{3.646135101916039*^9, 3.646135104350656*^9}}]
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.815612898138206`", ",", "1.1326825956132751`", ",", 
+   "1.1368060647953226`", ",", "1.9721258636284111`", ",", 
+   "2.5946328680341844`", ",", "2.6541833405065596`", ",", 
+   "2.684329531970429`", ",", "3.003633840160796`", ",", 
+   "2.8222121210094957`", ",", "2.657276119706925`", ",", 
+   "2.809259004458817`", ",", "2.0577654494168853`", ",", 
+   "2.1643937663142983`", ",", "2.4542436753249484`", ",", 
+   "2.9697470336531326`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.646225870802782*^9, 3.646225931613853*^9}, 
+   3.646226066796915*^9, 3.646226133557907*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["today plus 90 days", "WolframAlphaLong",
- CellChangeTimes->{{3.6461351767317266`*^9, 3.646135180114646*^9}}],
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Labeled", "[", 
+    RowBox[{
+     RowBox[{"TableForm", "[", 
+      RowBox[{"Sort", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"#", ",", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"LinearModelFit", "[", 
+                RowBox[{
+                 RowBox[{"data", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"All", ",", 
+                    RowBox[{"findIndex", "[", "#", "]"}]}], "]"}], "]"}], ",", 
+                 RowBox[{"{", "x", "}"}], ",", "x"}], "]"}], "[", 
+               "\"\<BestFit\>\"", "]"}], "/.", 
+              RowBox[{"{", 
+               RowBox[{"x", "\[Rule]", "time"}], "}"}]}], ")"}]}], "}"}], 
+          "&"}], "/@", "lastNamesWithoutParty"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "[", 
+           RowBox[{"[", "2", "]"}], "]"}], ">", 
+          RowBox[{"#2", "[", 
+           RowBox[{"[", "2", "]"}], "]"}]}], "&"}]}], "]"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Estimated Total Likes from Linear Fit\\n\>\"", "<>", 
+      RowBox[{"DatePlus", "[", 
+       RowBox[{
+        RowBox[{"times", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "time"}], "]"}]}], 
+     "\[IndentingNewLine]", ",", "Top"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"time", ",", "1", ",", "478", ",", "1"}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.6462265508398943`*^9, 3.646226600318198*^9}, {
+  3.646226664427649*^9, 3.6462267559534273`*^9}, {3.646226842785207*^9, 
+  3.6462270257820883`*^9}, {3.646227102709247*^9, 3.6462271027873983`*^9}, {
+  3.646227135433236*^9, 3.646227287094235*^9}, {3.646227729509323*^9, 
+  3.646227740512065*^9}}],
 
 Cell[BoxData[
- NamespaceBox["WolframAlphaQueryResults",
-  DynamicModuleBox[{Typeset`q$$ = "today plus 90 days", Typeset`opts$$ = {
-   AppearanceElements -> {
-     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
-      "Sources"}, Asynchronous -> All, 
-    TimeConstraint -> {30, Automatic, Automatic, Automatic}, 
-    Method -> {
-     "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
-      "http://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
-   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
-    "Sources"}, Typeset`pod1$$ = XMLElement[
-   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
-     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
-    
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["minput", {}, {"DatePlus[Today, Quantity[90, \"Days\"]]"}], 
-       
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TagBox[
-             FormBox[
-              TagBox[
-               RowBox[{
-                 FormBox[
-                  TagBox[
-                   GridBox[{{
-                    PaneBox[
-                    StyleBox[
-                    TagBox[
-                    GridBox[{{
-                    StyleBox[
-                    "\"today\"", {
-                    LineIndent -> 0, LineSpacing -> {0.9, 0, 1.5}}]}}, 
-                    GridBoxBackground -> {
-                    "Columns" -> {None}, "Rows" -> {{None}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    ColumnsEqual -> False, RowsEqual -> False, 
-                    GridBoxDividers -> {"Columns" -> {
-                    GrayLevel[0.84], 
-                    GrayLevel[0.84]}, "Rows" -> {{
-                    GrayLevel[0.84]}}, 
-                    "RowsIndexed" -> {
-                    1 -> GrayLevel[0.84], -1 -> GrayLevel[0.84]}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {1, 1}, "Rows" -> {{0.3}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
-                    AllowScriptLevelChange -> False, BaselinePosition -> 1], 
-                    $CellContext`TagBoxWrapper["Separator" -> " | "]], 
-                    LineSpacing -> {1, 0, 1.5}, LineIndent -> 0], 
-                    BaselinePosition -> Center]}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    ColumnsEqual -> False, RowsEqual -> False, 
-                    GridBoxSpacings -> {"Columns" -> {{
-                    AbsoluteThickness[-1]}}, "Rows" -> {{0}}}, 
-                    AllowScriptLevelChange -> False], 
-                   $CellContext`TagBoxWrapper["Separator" -> " | "]], 
-                  TraditionalForm], "+", 
-                 StyleBox[
-                  TagBox[
-                   TagBox[
-                    TagBox[
-                    RowBox[{"\"90\"", "\[InvisibleSpace]", " ", 
-                    StyleBox[
-                    "\"days\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], Identity], #& , 
-                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
-                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                  0, ZeroWidthTimes -> False]}], HoldForm], TraditionalForm], 
-             PolynomialForm[#, TraditionalOrder -> False]& ], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement["dataformats", {}, {"plaintext,minput"}]}]}], 
-   Typeset`pod2$$ = XMLElement[
-   "pod", {"title" -> "Result", "scanner" -> "Identity", "id" -> "Result", 
-     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
-     "true"}, {
-     XMLElement["subpod", {"title" -> "", "primary" -> "true"}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            FormBox[
-             TagBox["\"Thursday, October 15, 2015\"", Identity], 
-             TraditionalForm], TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {
-        "plaintext,moutput,computabledata,formatteddata"}]}]}], 
-   Typeset`pod3$$ = XMLElement[
-   "pod", {"title" -> "Date formats", "scanner" -> "Date", "id" -> 
-     "SingleDateFormats", "position" -> "300", "error" -> "false", 
-     "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{"  ", "\"  \"", 
-              
-              TemplateBox[{"\"10\"", "\"/\"", "\"15\"", "\"/\"", "\"2015\""}, 
-               "RowDefault"], 
-              StyleBox[
-               
-               RowBox[{
-                "\"(\"", "\[NoBreak]", "\"month/day/year\"", "\[NoBreak]", 
-                 "\")\""}], {
-                GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                LineIndent -> 0}, StripOnInput -> False]}, 
-             "RowWithSeparators"], TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {
-        "name" -> "More formats/calendars", "input" -> 
-         "SingleDateFormats__More formats/calendars"}, {}]}]}], 
-   Typeset`pod4$$ = XMLElement[
-   "pod", {"title" -> "Time difference from today (Friday, July 17, 2015)", 
-     "scanner" -> "Date", "id" -> "DifferenceConversions", "position" -> 
-     "400", "error" -> "false", "numsubpods" -> "5", "primary" -> "true"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              StyleBox[
-               RowBox[{
-                 RowBox[{"\"2\"", "\[InvisibleSpace]", " ", 
-                   StyleBox[
-                   "\"months\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], "\[InvisibleSpace]", 
-                 " ", 
-                 RowBox[{"\"28\"", "\[InvisibleSpace]", " ", 
-                   StyleBox[
-                   "\"days\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}]}]], "\" \"", 
-              StyleBox[
-              "\"from now\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-               LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              StyleBox[
-               RowBox[{
-                 RowBox[{"\"12\"", "\[InvisibleSpace]", " ", 
-                   StyleBox[
-                   "\"weeks\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], "\[InvisibleSpace]", 
-                 " ", 
-                 RowBox[{"\"6\"", "\[InvisibleSpace]", " ", 
-                   StyleBox[
-                   "\"days\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}]}]], "\" \"", 
-              StyleBox[
-              "\"from now\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-               LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              StyleBox[
-               TagBox[
-                TagBox[
-                 TagBox[
-                  RowBox[{
-                    TagBox["90", 
-                    $CellContext`TagBoxWrapper["StringBoxes" -> "90"]], 
-                    "\[InvisibleSpace]", " ", 
-                    StyleBox[
-                    "\"days\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], Identity], #& , 
-                 SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
-               LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
-               ZeroWidthTimes -> False], "\" \"", 
-              StyleBox[
-              "\"from now\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-               LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              TemplateBox[{"64", "\" \"", 
-                StyleBox[
-                "\"weekdays\"", "FontFamily" -> "Helvetica", 12.3, 
-                 StripOnInput -> False]}, "RowDefault"], "\" \"", 
-              StyleBox[
-              "\"from now\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-               LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              StyleBox[
-               TagBox[
-                TagBox[
-                 TagBox[
-                  RowBox[{
-                    TagBox["0.25", 
-                    $CellContext`TagBoxWrapper["StringBoxes" -> "0.25"]], 
-                    "\[InvisibleSpace]", " ", 
-                    StyleBox[
-                    "\"years\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], Identity], #& , 
-                 SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
-               LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
-               ZeroWidthTimes -> False], "\" \"", 
-              StyleBox[
-              "\"from now\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-               LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
-   Typeset`pod5$$ = XMLElement[
-   "pod", {"title" -> "Time in 2015", "scanner" -> "Date", "id" -> 
-     "TimeInYear", "position" -> "500", "error" -> "false", "numsubpods" -> 
-     "2"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            FormBox[
-             TagBox[
-              FormBox[
-               TemplateBox[{
-                 TagBox[
-                  SuperscriptBox["288", "\"th\""], 
-                  $CellContext`TagBoxWrapper[
-                  "StringBoxes" -> RowBox[{"288", "\"th\""}]]], "\" day\""}, 
-                "RowDefault"], TraditionalForm], 
-              Format[#, TraditionalForm]& ], TraditionalForm], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            FormBox[
-             TagBox[
-              FormBox[
-               TemplateBox[{
-                 TagBox[
-                  SuperscriptBox["42", "\"nd\""], 
-                  $CellContext`TagBoxWrapper[
-                  "StringBoxes" -> RowBox[{"42", "\"nd\""}]]], "\" week\""}, 
-                "RowDefault"], TraditionalForm], 
-              Format[#, TraditionalForm]& ], TraditionalForm], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {"name" -> "More", "input" -> "TimeInYear__More"}, {}]}]}], 
-   Typeset`pod6$$ = XMLElement[
-   "pod", {"title" -> "Observances for October 15 (United States)", "scanner" -> 
-     "Date", "id" -> "ObservanceDate (country)", "position" -> "600", "error" -> 
-     "false", "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TagBox[
-             TagBox[
-              StyleBox[
-               TemplateBox[{"\"Al\[Hyphen]Hijra (Muharram)\"", "\"  \"", 
-                 StyleBox[
-                  
-                  RowBox[{
-                   "\"(\"", "\[NoBreak]", "\"Islam\"", "\[NoBreak]", 
-                    "\")\""}], {
-                   GrayLevel[0.6], "Comment", 
-                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                   0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
-               0], 
-              $CellContext`TagBoxWrapper[
-              "Entity" -> {$CellContext`HolidayData, {
-                 "AlHijraMuharram", "Islam"}}]], Identity], TraditionalForm]],
-           "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {
-        "name" -> "More", "input" -> 
-         "ObservanceDate (country)__More"}, {}]}]}], Typeset`pod7$$ = 
-   XMLElement[
-   "pod", {"title" -> "Anniversaries for October 15, 2015", "scanner" -> 
-     "Date", "id" -> "NotableEventForDate", "position" -> "700", "error" -> 
-     "false", "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
-         Cell[
-          BoxData[
-           FormBox[
-            StyleBox[
-             GridBox[{{
-                FormBox[
-                 TagBox[
-                  FormBox[
-                   TemplateBox[{"\"\"", "\"\"", 
-                    TagBox[
-                    TagBox[
-                    "\"first draft card burning is held in protest of the \
-Vietnam War\"", 
-                    $CellContext`TagBoxWrapper[
-                    "Entity" -> {$CellContext`HistoricalEventData, 
-                    "FirstDraftCardBurningHeldProtestVietnamWar"}]], 
-                    Identity], "\" \"", 
-                    StyleBox[
-                    
-                    TemplateBox[{"\"(\"", "\"1965\"", "\"): \""}, 
-                    "RowDefault"], 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, 
-                    GrayLevel[0.6], StripOnInput -> False], "\"\"", 
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{
-                    TagBox[
-                    SuperscriptBox["50", "\"th\""], 
-                    $CellContext`TagBoxWrapper[
-                    "StringBoxes" -> RowBox[{"50", "\"th\""}]]], 
-                    "\" anniversary\""}, "RowDefault"], TraditionalForm], 
-                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
-                    "RowDefault"], TraditionalForm], 
-                  Format[#, TraditionalForm]& ], TraditionalForm]}, {
-                FormBox[
-                 TagBox[
-                  FormBox[
-                   TemplateBox[{
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{"\"birth\"", 
-                    StyleBox[
-                    "\" of \"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, 
-                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-                    TraditionalForm], Format[#, TraditionalForm]& ], 
-                    TraditionalForm], "\"\"", "\"Nasser El Sonbaty\"", 
-                    "\" \"", 
-                    StyleBox[
-                    
-                    TemplateBox[{
-                    "\"(\"", "\"1965\"", "\"\[Dash]\"", "\"2013\"", 
-                    "\"): \""}, "RowDefault"], 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, 
-                    GrayLevel[0.6], StripOnInput -> False], "\"\"", 
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{
-                    TagBox[
-                    SuperscriptBox["50", "\"th\""], 
-                    $CellContext`TagBoxWrapper[
-                    "StringBoxes" -> RowBox[{"50", "\"th\""}]]], 
-                    "\" anniversary\""}, "RowDefault"], TraditionalForm], 
-                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
-                    "RowDefault"], TraditionalForm], 
-                  Format[#, TraditionalForm]& ], TraditionalForm]}, {
-                FormBox[
-                 TagBox[
-                  FormBox[
-                   TemplateBox[{
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{"\"birth\"", 
-                    StyleBox[
-                    "\" of \"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, 
-                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-                    TraditionalForm], Format[#, TraditionalForm]& ], 
-                    TraditionalForm], "\"\"", "\"Jon Embree\"", "\" \"", 
-                    StyleBox[
-                    
-                    TemplateBox[{
-                    "\"(\"", "\"1965\"", "\"\[Dash]\"", "\" \"", "\"): \""}, 
-                    "RowDefault"], 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, 
-                    GrayLevel[0.6], StripOnInput -> False], "\"\"", 
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{
-                    TagBox[
-                    SuperscriptBox["50", "\"th\""], 
-                    $CellContext`TagBoxWrapper[
-                    "StringBoxes" -> RowBox[{"50", "\"th\""}]]], 
-                    "\" anniversary\""}, "RowDefault"], TraditionalForm], 
-                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
-                    "RowDefault"], TraditionalForm], 
-                  Format[#, TraditionalForm]& ], TraditionalForm]}, {
-                FormBox[
-                 TagBox[
-                  FormBox[
-                   TemplateBox[{"\"\"", "\"\"", 
-                    TagBox[
-                    TagBox[
-                    "\"Bulgaria enters World War I on the side of the Central \
-Powers\"", 
-                    $CellContext`TagBoxWrapper[
-                    "Entity" -> {$CellContext`HistoricalEventData, 
-                    "BulgariaEntersWorldWar1CentralPowers"}]], Identity], 
-                    "\" \"", 
-                    StyleBox[
-                    
-                    TemplateBox[{"\"(\"", "\"1915\"", "\"): \""}, 
-                    "RowDefault"], 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, 
-                    GrayLevel[0.6], StripOnInput -> False], "\"\"", 
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{
-                    TagBox[
-                    SuperscriptBox["100", "\"th\""], 
-                    $CellContext`TagBoxWrapper[
-                    "StringBoxes" -> RowBox[{"100", "\"th\""}]]], 
-                    "\" anniversary\""}, "RowDefault"], TraditionalForm], 
-                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
-                    "RowDefault"], TraditionalForm], 
-                  Format[#, TraditionalForm]& ], TraditionalForm]}, {
-                FormBox[
-                 TagBox[
-                  FormBox[
-                   TemplateBox[{
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{"\"birth\"", 
-                    StyleBox[
-                    "\" of \"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, 
-                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-                    TraditionalForm], Format[#, TraditionalForm]& ], 
-                    TraditionalForm], "\"\"", "\"Yitzhak Shamir\"", "\" \"", 
-                    StyleBox[
-                    
-                    TemplateBox[{
-                    "\"(\"", "\"1915\"", "\"\[Dash]\"", "\"2012\"", 
-                    "\"): \""}, "RowDefault"], 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, 
-                    GrayLevel[0.6], StripOnInput -> False], "\"\"", 
-                    FormBox[
-                    TagBox[
-                    FormBox[
-                    TemplateBox[{
-                    TagBox[
-                    SuperscriptBox["100", "\"th\""], 
-                    $CellContext`TagBoxWrapper[
-                    "StringBoxes" -> RowBox[{"100", "\"th\""}]]], 
-                    "\" anniversary\""}, "RowDefault"], TraditionalForm], 
-                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
-                    "RowDefault"], TraditionalForm], 
-                  Format[#, TraditionalForm]& ], TraditionalForm]}}, RowLines -> 
-              True, FrameStyle -> GrayLevel[0.84], RowSpacings -> 2, 
-              ColumnAlignments -> Left, 
-              GridBoxItemSize -> {
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-             LinebreakAdjustments -> {1, 10, 0, 0, 100}, LineIndent -> 0], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {
-        "name" -> "More", "input" -> "NotableEventForDate__More"}, {}]}]}], 
-   Typeset`pod8$$ = XMLElement[
-   "pod", {"title" -> "Daylight information for October 15 in Austin, Texas", 
-     "scanner" -> "Date", "id" -> "DaylightInformation", "position" -> "800", 
-     "error" -> "false", "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            StyleBox[
-             TagBox[
-              GridBox[{{
-                 TagBox[
-                  PaneBox[
-                  "\"sunrise\"", 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
-                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 TemplateBox[{"\"7:34 am\"", "\" \"", 
-                   StyleBox[
-                   "\"CDT\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, 
-                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}, {
-                
-                 TagBox[
-                  PaneBox[
-                  "\"sunset\"", 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
-                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 TemplateBox[{"\"7:01 pm\"", "\" \"", 
-                   StyleBox[
-                   "\"CDT\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, 
-                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}, {
-                
-                 TagBox[
-                  PaneBox[
-                  "\"duration of daylight\"", 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
-                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 StyleBox[
-                  RowBox[{
-                    RowBox[{"\"11\"", "\[InvisibleSpace]", " ", 
-                    StyleBox[
-                    "\"hours\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
-                    LineIndent -> 0, {
-                    FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}], "\[InvisibleSpace]", 
-                    " ", 
-                    RowBox[{"\"27\"", "\[InvisibleSpace]", " ", 
-                    StyleBox[
-                    "\"minutes\"", 
-                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
-                    0, {FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
-                    Smaller}, StripOnInput -> False]}]}]]}}, 
-               GridBoxAlignment -> {
-                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
-               AutoDelete -> False, 
-               GridBoxBackground -> {"Columns" -> {None, None}}, 
-               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
-               GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
-               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
-               AllowScriptLevelChange -> False], "Grid"], 
-             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
-             False], TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {
-        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
-     
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {
-        "name" -> "More", "input" -> "DaylightInformation__More"}, {}]}]}], 
-   Typeset`pod9$$ = XMLElement[
-   "pod", {"title" -> "Phase of the Moon", "scanner" -> "Date", "id" -> 
-     "PhaseOfTheMoon", "position" -> "900", "error" -> "false", "numsubpods" -> 
-     "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
-         Cell[
-          BoxData[
-           FormBox[
-            TemplateBox[{
-              GraphicsBox[{
-                GrayLevel[0.75], {
-                 
-                 PolygonBox[{{-1.1, -1.3}, {1.1, -1.3}, {1.3, -1.1}, {1.3, 
-                  1.1}, {1.1, 1.3}, {-1.1, 1.3}, {-1.3, 1.1}, {-1.3, -1.1}}], 
-                 
-                 DiskBox[{-1.1, -1.1}, 0.2], 
-                 DiskBox[{1.1, -1.1}, 0.2], 
-                 DiskBox[{1.1, 1.1}, 0.2], 
-                 DiskBox[{-1.1, 1.1}, 0.2]}, 
-                GrayLevel[1], 
-                DiskBox[{0, 0}, 1, 
-                 
-                 NCache[{Rational[3, 2] Pi, Rational[5, 2] Pi}, {
-                  4.71238898038469, 7.853981633974483}]], 
-                GrayLevel[0.75], 
-                DiskBox[{0, 0}, {0.9263036725871422, 1}], 
-                GrayLevel[0.6], 
-                CircleBox[{0, 0}, 1]}, AspectRatio -> 1, ImageSize -> 30], 
-              InterpretationBox[
-               StyleBox[
-                
-                GraphicsBox[{}, ImageSize -> {5, 0}, BaselinePosition -> 
-                 Baseline], "CacheGraphics" -> False], 
-               Spacer[5]], 
-              StyleBox[
-              "\"waxing crescent moon\"", 
-               LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
-               GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"], 
-            TraditionalForm]], "Output", {}]}], 
-       XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "1"}, {
-       XMLElement[
-       "state", {
-        "name" -> "Large image", "input" -> 
-         "PhaseOfTheMoon__Large image"}, {}]}]}], Typeset`aux1$$ = {
-   True, False, {False}, True}, Typeset`aux2$$ = {True, False, {False}, True},
-    Typeset`aux3$$ = {True, False, {False}, True}, Typeset`aux4$$ = {
-   True, False, {False, False, False, False, False}, True}, Typeset`aux5$$ = {
-   True, False, {False, False}, True}, Typeset`aux6$$ = {
-   True, False, {False}, True}, Typeset`aux7$$ = {True, False, {False}, True},
-    Typeset`aux8$$ = {True, False, {False}, True}, Typeset`aux9$$ = {
-   True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
-    XMLElement["sources", {"count" -> "2"}, {
-      XMLElement[
-      "source", {
-       "url" -> 
-        "http://www.wolframalpha.com/sources/PeopleDataSourceInformationNotes.\
-html", "text" -> "People data"}, {}], 
-      XMLElement[
-      "source", {
-       "url" -> 
-        "http://www.wolframalpha.com/sources/StarDataSourceInformationNotes.\
-html", "text" -> "Star data"}, {}]}]}, Typeset`initdone$$ = True, 
-   Typeset`queryinfo$$ = {
-   "success" -> "true", "error" -> "false", "numpods" -> "9", "datatypes" -> 
-    "City,DatePlus,HistoricalEvent,Holiday", "timedout" -> "", "timedoutpods" -> 
-    "", "timing" -> "2.755", "parsetiming" -> "0.355", "parsetimedout" -> 
-    "false", "recalculate" -> "", "id" -> 
-    "MSPa8931b4ag0d32f73hdeh00005g40i2fe9hh467a1", "host" -> 
-    "http://www4b.wolframalpha.com", "server" -> "31", "related" -> 
-    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa8941b4ag0d32f73hdeh000058f59a5d1b66bf72&s=31", "version" -> "2.6"}, 
-   Typeset`sessioninfo$$ = {
-   "TimeZone" -> -5., 
-    "Date" -> {2015, 7, 17, 10, 19, 45.281799`8.408498649488827}, "Line" -> 
-    141, "SessionID" -> 27464254725810924401}, Typeset`showpods$$ = {1, 2, 3, 
-   4, 5, 6, 7, 8, 9}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, 
-   Typeset`open$$ = False, Typeset`newq$$ = "today plus 90 days"}, 
-   DynamicBox[ToBoxes[
-     AlphaIntegration`FormatAlphaResults[
-      Dynamic[{
-       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
-         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$, 
-         Typeset`pod9$$}, {
-        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
-         Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$, Typeset`aux8$$, 
-         Typeset`aux9$$}, Typeset`chosen$$, Typeset`open$$, 
-        Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
-        Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
-        Typeset`failedpods$$, Typeset`newq$$}]], StandardForm],
-    ImageSizeCache->{653., {439., 445.}},
-    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
-   DynamicModuleValues:>{},
-   Initialization:>If[
-     Not[Typeset`initdone$$], Null; 
-     WolframAlphaClient`Private`doAsyncUpdates[
-       Hold[{
-        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
-         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$, 
-         Typeset`pod9$$}], Typeset`asyncpods$$, 
-       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
-     Typeset`initdone$$ = True],
-   SynchronousInitialization->False],
-  BaseStyle->{Deployed -> True},
-  DeleteWithContents->True,
-  Editable->False,
-  SelectWithContents->True]], "Print",
- CellMargins->{{20, 10}, {Inherited, Inherited}},
- CellChangeTimes->{3.6461351857199993`*^9}]
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`time$$ = 478, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`time$$], 1, 478, 1}}, Typeset`size$$ = {
+    289., {183., 224.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`time$379924$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`time$$ = 1}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`time$$, $CellContext`time$379924$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Labeled[
+        TableForm[
+         Sort[
+          Map[{#, 
+            ReplaceAll[
+             LinearModelFit[
+              Part[$CellContext`data, All, 
+               $CellContext`findIndex[#]], {$CellContext`x}, $CellContext`x][
+             "BestFit"], {$CellContext`x -> $CellContext`time$$}]}& , \
+$CellContext`lastNamesWithoutParty], Part[#, 2] > Part[#2, 2]& ]], 
+        StringJoin["Estimated Total Likes from Linear Fit\n", 
+         DatePlus[
+          Part[$CellContext`times, 1], $CellContext`time$$]], Top], 
+      "Specifications" :> {{$CellContext`time$$, 1, 478, 1}}, "Options" :> {},
+       "DefaultOptions" :> {}],
+     ImageSizeCache->{334., {259., 264.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.646227314621241*^9, 3.64622774087127*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DatePlus", "[", 
+  RowBox[{"\"\<Fri Jul 03 00:53:05 CDT 2015\>\"", ",", "1"}], "]"}]], "Input",\
+
+ NumberMarks->False],
+
+Cell[BoxData["\<\"Sat 4 Jul 2015 00:53:05\"\>"], "Output",
+ CellChangeTimes->{3.646227222537963*^9}]
 }, Open  ]]
 },
-WindowSize->{720, 802},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowSize->{960, 598},
+WindowMargins->{{Automatic, -232}, {Automatic, 77}},
 FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
 2015)",
 StyleDefinitions->"Default.nb"
@@ -2374,52 +1604,45 @@ Notebook[{
 Cell[558, 20, 13660, 381, 1168, "Input"],
 Cell[CellGroupData[{
 Cell[14243, 405, 4358, 113, 386, "Input"],
-Cell[18604, 520, 3546, 64, 384, "Output"]
+Cell[18604, 520, 3614, 66, 184, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22187, 589, 586, 14, 46, "Input"],
-Cell[22776, 605, 140, 2, 28, "Output"]
+Cell[22255, 591, 586, 14, 46, "Input"],
+Cell[22844, 607, 140, 2, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22953, 612, 7450, 190, 658, "Input"],
-Cell[30406, 804, 3713, 70, 548, "Output"]
+Cell[23021, 614, 7450, 190, 658, "Input"],
+Cell[30474, 806, 3762, 71, 186, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34156, 879, 1153, 25, 63, "Input"],
-Cell[35312, 906, 259, 4, 28, "Output"]
+Cell[34273, 882, 1153, 25, 63, "Input"],
+Cell[35429, 909, 259, 4, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[35608, 915, 6726, 172, 505, "Input"],
-Cell[42337, 1089, 4791, 82, 352, "Output"]
+Cell[35725, 918, 6726, 172, 505, "Input"],
+Cell[42454, 1092, 4881, 82, 606, "Output"]
 }, Open  ]],
-Cell[47143, 1174, 482, 7, 28, "Input"],
+Cell[47350, 1177, 482, 7, 28, "Input"],
 Cell[CellGroupData[{
-Cell[47650, 1185, 770, 18, 28, "Input"],
-Cell[48423, 1205, 450, 8, 28, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[48910, 1218, 436, 14, 28, "Input"],
-Cell[49349, 1234, 358, 7, 46, "Output"]
+Cell[47857, 1188, 770, 18, 28, "Input"],
+Cell[48630, 1208, 450, 8, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[49744, 1246, 352, 8, 46, "Input"],
-Cell[50099, 1256, 1121, 28, 234, "Output"]
+Cell[49117, 1221, 1444, 40, 80, "Input"],
+Cell[50564, 1263, 6552, 163, 245, "Output"],
+Cell[57119, 1428, 308, 6, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[51257, 1289, 724, 21, 46, "Input"],
-Cell[51984, 1312, 9771, 251, 248, "Output"]
+Cell[57464, 1439, 765, 21, 46, "Input"],
+Cell[58232, 1462, 613, 12, 46, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[61792, 1568, 747, 22, 46, "Input"],
-Cell[62542, 1592, 977, 25, 42, "Output"]
+Cell[58882, 1479, 1801, 46, 114, "Input"],
+Cell[60686, 1527, 2108, 44, 540, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63556, 1622, 143, 3, 28, "Input"],
-Cell[63702, 1627, 111, 1, 28, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[63850, 1633, 114, 1, 75, "WolframAlphaLong"],
-Cell[63967, 1636, 33481, 717, 894, "Print"]
+Cell[62831, 1576, 142, 4, 28, "Input"],
+Cell[62976, 1582, 100, 1, 28, "Output"]
 }, Open  ]]
 }
 ]
