@@ -1,6 +1,9 @@
+import java.security.Security;
 import java.util.*;
 import java.io.*;
 import java.net.*;
+
+import javax.net.ssl.TrustManager;
 
 public class GetData {
 
@@ -50,6 +53,18 @@ public class GetData {
 		wolframParams = wolframParams.replaceAll(" ", "+").replaceAll("\\(", "%28").replaceAll("\\)","%29").replaceAll(":","%3A");
 		System.out.println(wolframURL + wolframParams);
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		// Just hit the wolfram URL.
 		URL wolfram = new URL(wolframURL + wolframParams);
 		BufferedReader in = new BufferedReader(
@@ -59,4 +74,5 @@ public class GetData {
 		System.out.println("done");
 	}
 
+ 
 }
