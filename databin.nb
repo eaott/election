@@ -1,0 +1,279 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10313,        270]
+NotebookOptionsPosition[      9908,        251]
+NotebookOutlinePosition[     10262,        267]
+CellTagsIndexPosition[     10219,        264]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data2", "=", 
+   RowBox[{"Import", "[", "\"\<like_data.csv\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"bin", "=", 
+   RowBox[{"Databin", "[", "\"\<66W7CW2x\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"names", "=", 
+   RowBox[{"data2", "[", 
+    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data2", "=", 
+   RowBox[{"data2", "[", 
+    RowBox[{"[", 
+     RowBox[{"2", ";;"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"InvalidNum", "=", 
+   RowBox[{"-", "1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"emptyData", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Table", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"Or", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"data2", "[", 
+              RowBox[{"[", "j", "]"}], "]"}], "]"}], "<", "i"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"StringLength", "[", 
+             RowBox[{"ToString", "[", 
+              RowBox[{"data2", "[", 
+               RowBox[{"[", 
+                RowBox[{"j", ",", "i"}], "]"}], "]"}], "]"}], "]"}], 
+            "\[Equal]", "0"}]}], "]"}], ",", "\[IndentingNewLine]", 
+         "InvalidNum", ",", 
+         RowBox[{"data2", "[", 
+          RowBox[{"[", 
+           RowBox[{"j", ",", "i"}], "]"}], "]"}]}], "]"}], 
+       "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"Length", "[", "names", "]"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"j", ",", 
+       RowBox[{"Length", "[", "data2", "]"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"data2", "=", "emptyData"}], ";"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"times", "=", 
+   RowBox[{"(", 
+    RowBox[{"DateObject", "/@", 
+     RowBox[{
+      RowBox[{"Dataset", "[", "bin", "]"}], "[", 
+      RowBox[{"All", ",", "\"\<Timestamp\>\""}], "]"}]}], ")"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"ResetTheDatabin", "[", "]"}], ":=", 
+    RowBox[{"For", "[", 
+     RowBox[{
+      RowBox[{"i", "=", "0"}], ",", 
+      RowBox[{"i", "<", 
+       RowBox[{"Length", "[", "data", "]"}]}], ",", 
+      RowBox[{"i", "++"}], ",", 
+      RowBox[{"DatabinRemove", "[", 
+       RowBox[{"bin", ",", "1"}], "]"}]}], "]"}]}], "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.647092733368609*^9, 3.6470927357981243`*^9}, {
+   3.64710358584426*^9, 3.6471035885076637`*^9}, {3.647104434899235*^9, 
+   3.6471044656330853`*^9}, {3.647104565591567*^9, 3.6471045658260107`*^9}, {
+   3.64710486700381*^9, 3.6471048758794737`*^9}, {3.647104924038755*^9, 
+   3.6471049392609158`*^9}, {3.647105017975459*^9, 3.6471050257899637`*^9}, {
+   3.6471051041229773`*^9, 3.6471051370134077`*^9}, {3.6471069830195503`*^9, 
+   3.6471069833025217`*^9}, {3.647183229047584*^9, 3.6471832489669113`*^9}, {
+   3.647184028492035*^9, 3.647184042778494*^9}, {3.647184584133746*^9, 
+   3.64718460207491*^9}, {3.6471846531689987`*^9, 3.647184671972905*^9}, 
+   3.647301828294778*^9, {3.647302055918223*^9, 3.647302067526925*^9}, 
+   3.647302449463462*^9}],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "\[LessEqual]", 
+     RowBox[{"Length", "[", "data", "]"}]}], ",", 
+    RowBox[{"i", "++"}], ",", 
+    RowBox[{"DatabinAdd", "[", 
+     RowBox[{"bin", ",", 
+      RowBox[{"Association", "[", 
+       RowBox[{"MapThread", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "\[Rule]", "#2"}], "&"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"names", ",", 
+           RowBox[{"data", "[", 
+            RowBox[{"[", "i", "]"}], "]"}]}], "}"}]}], "]"}], "]"}]}], 
+     "]"}]}], "]"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.647103315483604*^9, 3.647103316453415*^9}, {
+   3.647103349445305*^9, 3.647103391519516*^9}, {3.6471034368466187`*^9, 
+   3.647103448131826*^9}, {3.647103482683186*^9, 3.647103506660537*^9}, {
+   3.647103678070651*^9, 3.647103699491446*^9}, 3.647103754881259*^9, {
+   3.647103902833804*^9, 3.6471039029657497`*^9}, {3.647104300357033*^9, 
+   3.647104360679739*^9}, {3.6471044881973352`*^9, 3.6471044992021713`*^9}, {
+   3.647104530192041*^9, 3.647104530299755*^9}, {3.647104612149211*^9, 
+   3.6471046409651117`*^9}, {3.6471049728610983`*^9, 3.647104973016169*^9}, {
+   3.6471050355992537`*^9, 3.6471050568584967`*^9}, {3.647105090051775*^9, 
+   3.647105096442587*^9}, {3.647105180085644*^9, 3.6471051897932863`*^9}, {
+   3.647106250551903*^9, 3.647106265170595*^9}, {3.6471066673916483`*^9, 
+   3.64710670119316*^9}, {3.647107120969109*^9, 3.6471071233917303`*^9}, {
+   3.647107174887965*^9, 3.647107194912447*^9}, {3.647109361111974*^9, 
+   3.647109436999811*^9}, {3.647183347575129*^9, 3.647183366059017*^9}, {
+   3.647184083457734*^9, 3.647184088684602*^9}, {3.647304455812374*^9, 
+   3.64730445876198*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dataset", "[", "bin", "]"}]], "Input",
+ CellChangeTimes->{{3.647106389308522*^9, 3.647106392772867*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  TemplateBox[{StyleBox[
+     GridBox[{{
+        RowBox[{"{", "\[ThinSpace]", 
+          StyleBox[
+           RowBox[{
+             StyleBox["\[LeftAssociation]", 
+              GrayLevel[0.45]], "\[ThinSpace]", 
+             RowBox[{
+               StyleBox[
+                StyleBox["\"Bobby Jindal (R)\"", FontColor -> GrayLevel[0.4]], 
+                GrayLevel[0.3]], 
+               StyleBox["\[Rule]", 
+                GrayLevel[0.5]], 
+               TagBox[
+                InterpretationBox["\"258700.\"", 258673., AutoDelete -> True],
+                 NumberForm[#, 4]& ]}], ",", 
+             RowBox[{
+               StyleBox[
+                StyleBox[
+                "\"Chris Christie (R)\"", FontColor -> GrayLevel[0.4]], 
+                GrayLevel[0.3]], 
+               StyleBox["\[Rule]", 
+                GrayLevel[0.5]], 
+               TagBox[
+                InterpretationBox["\"110100.\"", 110099., AutoDelete -> True],
+                 NumberForm[#, 4]& ]}], ",", 
+             RowBox[{
+               StyleBox[
+                StyleBox["\"Ben Carson (R)\"", FontColor -> GrayLevel[0.4]], 
+                GrayLevel[0.3]], 
+               StyleBox["\[Rule]", 
+                GrayLevel[0.5]], 
+               TagBox[
+                InterpretationBox[
+                 RowBox[{"\"1.632\"", "\[Times]", 
+                   SuperscriptBox["10", "\"6\""]}], 1.631702*^6, AutoDelete -> 
+                 True], NumberForm[#, 4]& ]}], ",", 
+             RowBox[{
+               StyleBox[
+                StyleBox[
+                "\"Lindsey Graham (R)\"", FontColor -> GrayLevel[0.4]], 
+                GrayLevel[0.3]], 
+               StyleBox["\[Rule]", 
+                GrayLevel[0.5]], 
+               TagBox[
+                InterpretationBox["\"118200.\"", 118229., AutoDelete -> True],
+                 NumberForm[#, 4]& ]}], ",", 
+             StyleBox[
+              SubscriptBox["\[CenterEllipsis]", "18"], 
+              GrayLevel[0.5]], "\[ThinSpace]", 
+             StyleBox["\[RightAssociation]", 
+              GrayLevel[0.45]]}], LineBreakWithin -> Automatic], ",", 
+          StyleBox[
+           SubscriptBox["\[CenterEllipsis]", "26"], 
+           GrayLevel[0.5]], "\[ThinSpace]", "}"}]}, {
+        ItemBox[
+         RowBox[{"2 levels", 
+           AdjustmentBox[" | ", BoxBaselineShift -> -0.3], 
+           RowBox[{"27", "rows"}]}], 
+         BaseStyle -> {
+          FontFamily -> "Helvetica", FontSize -> 10, FontColor -> 
+           GrayLevel[0.4], Editable -> False, Selectable -> False}, 
+         ItemSize -> {Automatic, Automatic}, Alignment -> {Left, Center}, 
+         Background -> RGBColor[0.92, 0.92, 0.9]]}}, 
+      GridBoxAlignment -> {{{Left}}}, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      GridBoxSpacings -> {"Rows" -> {{0, 0}}, "Columns" -> {{0}}}, 
+      GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+      FrameStyle -> RGBColor[0, 0, 0, 0.4], 
+      GridFrameMargins -> {{2, 1}, {0, 2}}], LineBreakWithin -> Automatic],
+    "Dataset[{__Association}]"},
+   "Dataset",
+   DisplayFunction->(TagBox[
+     StyleBox[#, {
+      ShowAutoStyles -> False, LineBreakWithin -> False, FontWeight -> 
+       "Light", FontFamily -> "Helvetica Neue", NumberMarks -> False, 
+       SpanMaxSize -> 3, SpanMinSize -> 1., Editable -> False, Selectable -> 
+       True, Background -> RGBColor[0.985, 0.98, 0.973], 
+       LinebreakAdjustments -> {0.4, 5, 100, 0, 0.5}, LineIndent -> 0, 
+       LineSpacing -> {1.1, 5}}], Deploy]& ),
+   InterpretationFunction->(#2& )],
+  False,
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.647106393765058*^9, 3.647106768196363*^9, 
+  3.647184165709055*^9}]
+}, Open  ]]
+},
+WindowSize->{720, 799},
+WindowMargins->{{320, Automatic}, {Automatic, 18}},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3624, 94, 369, "Input"],
+Cell[4185, 116, 1767, 35, 46, "Input"],
+Cell[CellGroupData[{
+Cell[5977, 155, 128, 2, 28, "Input"],
+Cell[6108, 159, 3784, 89, 134, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
