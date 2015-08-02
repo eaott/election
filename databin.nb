@@ -10,16 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     82183,       2079]
-NotebookOptionsPosition[     80772,       2028]
-NotebookOutlinePosition[     81123,       2044]
-CellTagsIndexPosition[     81080,       2041]
+NotebookDataLength[     82356,       2087]
+NotebookOptionsPosition[     81015,       2039]
+NotebookOutlinePosition[     81366,       2055]
+CellTagsIndexPosition[     81323,       2052]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", 
@@ -674,62 +672,6 @@ Cell[BoxData[
    3.647348499134036*^9, 3.6473485070458384`*^9}, {3.647348847911212*^9, 
    3.647348870766334*^9}, {3.647349654431573*^9, 3.647349655720872*^9}}],
 
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"ToExpression", "::", "notstrbox"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\[NoBreak]\\!\\(Missing[\\(\\(\\\"KeyAbsent\\\", \\\"Joe \
-Biden (D)\\\"\\)\\)]\\)\[NoBreak] is not a string or a box. ToExpression can \
-only interpret strings or boxes as Wolfram Language input. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/ToExpression/notstrbox\\\", ButtonNote -> \
-\\\"ToExpression::notstrbox\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{{3.647525902346506*^9, 3.647525925507676*^9}}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"ToExpression", "::", "notstrbox"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\[NoBreak]\\!\\(Missing[\\(\\(\\\"KeyAbsent\\\", \\\"Joe \
-Biden (D)\\\"\\)\\)]\\)\[NoBreak] is not a string or a box. ToExpression can \
-only interpret strings or boxes as Wolfram Language input. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/ToExpression/notstrbox\\\", ButtonNote -> \
-\\\"ToExpression::notstrbox\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{{3.647525902346506*^9, 3.6475259255177803`*^9}}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"ToExpression", "::", "notstrbox"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\[NoBreak]\\!\\(Missing[\\(\\(\\\"KeyAbsent\\\", \\\"Joe \
-Biden (D)\\\"\\)\\)]\\)\[NoBreak] is not a string or a box. ToExpression can \
-only interpret strings or boxes as Wolfram Language input. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/ToExpression/notstrbox\\\", ButtonNote -> \
-\\\"ToExpression::notstrbox\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{{3.647525902346506*^9, 3.647525925529086*^9}}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \
-\[NoBreak]\\!\\(\\*StyleBox[\\(ToExpression :: notstrbox\\), \
-\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
-ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{{3.647525902346506*^9, 3.647525925537828*^9}}]
-}, Open  ]],
-
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -782,34 +724,33 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`option$$ = 1, $CellContext`scale$$ = 
-    1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 
-    14, 15, 16, 17, 18, 19, 20, 21, 22}, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    1, $CellContext`selection$$ = {3, 6, 8, 13, 16, 20}, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`option$$], 1}, {
       1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
        "Overnight Change (Percentage)"}}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
-        13, 14, 15, 16, 17, 18, 19, 20, 21, 
-       22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
-        19, 20, 21, 22} -> 
-       "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-       "Republicans", {5, 6, 8, 13, 16, 20, 22} -> "Democrats"}}, {{
+        13, 14, 15, 16, 17, 18, 19, 20, 
+       21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+        19, 20, 21} -> 
+       "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+       "Republicans", {3, 6, 8, 13, 16, 20} -> "Democrats"}}, {{
        Hold[$CellContext`scale$$], 1}, {1 -> "Normal", 2 -> "Log"}}}, 
-    Typeset`size$$ = {696., {113., 118.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {456., {114., 119.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`option$25977$$ = 
-    False, $CellContext`selection$25978$$ = 
-    False, $CellContext`scale$25979$$ = False}, 
+    True, $CellContext`option$96751$$ = 
+    False, $CellContext`selection$96752$$ = 
+    False, $CellContext`scale$96753$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 1, $CellContext`scale$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20, 21, 22}}, "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$25977$$, False], 
-        Hold[$CellContext`selection$$, $CellContext`selection$25978$$, False], 
-        Hold[$CellContext`scale$$, $CellContext`scale$25979$$, False]}, 
+         13, 14, 15, 16, 17, 18, 19, 20, 21}}, "ControllerVariables" :> {
+        Hold[$CellContext`option$$, $CellContext`option$96751$$, False], 
+        Hold[$CellContext`selection$$, $CellContext`selection$96752$$, False], 
+        Hold[$CellContext`scale$$, $CellContext`scale$96753$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -821,14 +762,14 @@ $CellContext`selection$$, $CellContext`scale$$],
          1 -> "Total Likes", 2 -> "Overnight Change (Absolute)", 3 -> 
           "Overnight Change (Percentage)"}}, {{$CellContext`selection$$, {1, 
           2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
-          21, 22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
-           17, 18, 19, 20, 21, 22} -> 
-          "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-          "Republicans", {5, 6, 8, 13, 16, 20, 22} -> 
+          21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
+           18, 19, 20, 21} -> 
+          "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+          "Republicans", {3, 6, 8, 13, 16, 20} -> 
           "Democrats"}}, {{$CellContext`scale$$, 1}, {
          1 -> "Normal", 2 -> "Log"}}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{741., {181., 186.}},
+     ImageSizeCache->{501., {182., 187.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -839,7 +780,8 @@ $CellContext`selection$$, $CellContext`scale$$],
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.6473489445033493`*^9, 3.6475259997914143`*^9}]
+ CellChangeTimes->{3.6473489445033493`*^9, 3.6475259997914143`*^9, 
+  3.6475268544909267`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -893,9 +835,10 @@ Cell[BoxData[
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`option$$ = 1, $CellContext`selection$$ = {5,
-     6, 8, 13, 16, 20, 22}, $CellContext`timestamp$$ = 31, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+   DynamicModuleBox[{$CellContext`option$$ = 4, $CellContext`selection$$ = {1,
+     2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
+    21}, $CellContext`timestamp$$ = 30, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`option$$], 1}, {
@@ -906,25 +849,25 @@ Cell[BoxData[
        If[$CellContext`option$$ <= 2, 
         Length[$CellContext`times], Length[$CellContext`times] - 1]], 1}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
-        13, 14, 15, 16, 17, 18, 19, 20, 21, 
-       22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
-        19, 20, 21, 22} -> 
-       "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-       "Republicans", {5, 6, 8, 13, 16, 20, 22} -> "Democrats"}}}, 
-    Typeset`size$$ = {360., {194., 199.}}, Typeset`update$$ = 0, 
+        13, 14, 15, 16, 17, 18, 19, 20, 
+       21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+        19, 20, 21} -> 
+       "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+       "Republicans", {3, 6, 8, 13, 16, 20} -> "Democrats"}}}, 
+    Typeset`size$$ = {360., {195., 199.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`option$46065$$ = 
-    False, $CellContext`timestamp$46066$$ = 
-    0, $CellContext`selection$46067$$ = False}, 
+    True, $CellContext`option$110090$$ = 
+    False, $CellContext`timestamp$110091$$ = 
+    0, $CellContext`selection$110092$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`option$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20, 21, 22}, $CellContext`timestamp$$ = 
-        1}, "ControllerVariables" :> {
-        Hold[$CellContext`option$$, $CellContext`option$46065$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$46066$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$46067$$, 
+         13, 14, 15, 16, 17, 18, 19, 20, 21}, $CellContext`timestamp$$ = 1}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`option$$, $CellContext`option$110090$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$110091$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$110092$$, 
          False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
@@ -941,13 +884,13 @@ $CellContext`timestamp$$, $CellContext`selection$$],
           If[$CellContext`option$$ <= 2, 
            Length[$CellContext`times], Length[$CellContext`times] - 1]], 
          1}, {{$CellContext`selection$$, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
-          12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
-          22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-           18, 19, 20, 21, 22} -> 
-          "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-          "Republicans", {5, 6, 8, 13, 16, 20, 22} -> "Democrats"}}}, 
+          12, 13, 14, 15, 16, 17, 18, 19, 20, 
+          21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
+           18, 19, 20, 21} -> 
+          "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+          "Republicans", {3, 6, 8, 13, 16, 20} -> "Democrats"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{443., {263., 268.}},
+     ImageSizeCache->{443., {264., 269.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -958,7 +901,8 @@ $CellContext`timestamp$$, $CellContext`selection$$],
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.647348960919292*^9, 3.64752601200084*^9}]
+ CellChangeTimes->{3.647348960919292*^9, 3.64752601200084*^9, 
+  3.6475268618014593`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1022,8 +966,8 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`order$$ = 1, $CellContext`selection$$ = {1, 
-    2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
-    22}, $CellContext`sort$$ = 1, $CellContext`timestamp$$ = 1, 
+    2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
+    21}, $CellContext`sort$$ = 3, $CellContext`timestamp$$ = 30, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -1034,26 +978,26 @@ Cell[BoxData[
       1 -> "Descending", 2 -> "Ascending"}}, {
       Hold[$CellContext`timestamp$$], 1, 30, 1}, {{
        Hold[$CellContext`selection$$], {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
-        13, 14, 15, 16, 17, 18, 19, 20, 21, 
-       22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
-        19, 20, 21, 22} -> 
-       "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-       "Republicans", {5, 6, 8, 13, 16, 20, 22} -> "Democrats"}}}, 
-    Typeset`size$$ = {497., {201., 242.}}, Typeset`update$$ = 0, 
+        13, 14, 15, 16, 17, 18, 19, 20, 
+       21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+        19, 20, 21} -> 
+       "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+       "Republicans", {3, 6, 8, 13, 16, 20} -> "Democrats"}}}, 
+    Typeset`size$$ = {497., {192., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`sort$62979$$ = False, $CellContext`order$62980$$ = 
-    False, $CellContext`timestamp$62981$$ = 
-    0, $CellContext`selection$62982$$ = False}, 
+    True, $CellContext`sort$134095$$ = False, $CellContext`order$134096$$ = 
+    False, $CellContext`timestamp$134097$$ = 
+    0, $CellContext`selection$134098$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`order$$ = 
         1, $CellContext`selection$$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
-         13, 14, 15, 16, 17, 18, 19, 20, 21, 22}, $CellContext`sort$$ = 
+         13, 14, 15, 16, 17, 18, 19, 20, 21}, $CellContext`sort$$ = 
         1, $CellContext`timestamp$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`sort$$, $CellContext`sort$62979$$, False], 
-        Hold[$CellContext`order$$, $CellContext`order$62980$$, False], 
-        Hold[$CellContext`timestamp$$, $CellContext`timestamp$62981$$, 0], 
-        Hold[$CellContext`selection$$, $CellContext`selection$62982$$, 
+        Hold[$CellContext`sort$$, $CellContext`sort$134095$$, False], 
+        Hold[$CellContext`order$$, $CellContext`order$134096$$, False], 
+        Hold[$CellContext`timestamp$$, $CellContext`timestamp$134097$$, 0], 
+        Hold[$CellContext`selection$$, $CellContext`selection$134098$$, 
          False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
@@ -1068,13 +1012,13 @@ $CellContext`order$$, $CellContext`timestamp$$, $CellContext`selection$$],
           1}, {1 -> "Descending", 2 -> 
           "Ascending"}}, {$CellContext`timestamp$$, 1, 30, 
          1}, {{$CellContext`selection$$, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
-          12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 
-          22}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-           18, 19, 20, 21, 22} -> 
-          "All", {1, 2, 3, 4, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
-          "Republicans", {5, 6, 8, 13, 16, 20, 22} -> "Democrats"}}}, 
+          12, 13, 14, 15, 16, 17, 18, 19, 20, 
+          21}}, {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
+           18, 19, 20, 21} -> 
+          "All", {1, 2, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 21} -> 
+          "Republicans", {3, 6, 8, 13, 16, 20} -> "Democrats"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{542., {301., 306.}},
+     ImageSizeCache->{542., {292., 297.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1085,7 +1029,8 @@ $CellContext`order$$, $CellContext`timestamp$$, $CellContext`selection$$],
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.647348989284741*^9, 3.6475260569974833`*^9}]
+ CellChangeTimes->{3.647348989284741*^9, 3.6475260569974833`*^9, 
+  3.647526899688246*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1846,7 +1791,7 @@ Cell[BoxData[
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`time$$], 1, 478, 1}}, Typeset`size$$ = {
-    4718., {189., 231.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    4880., {189., 231.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`time$60909$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`time$$ = 1}, 
@@ -1877,7 +1822,7 @@ $CellContext`lastNamesWithoutParty], Part[#, 2] > Part[#2, 2]& ]],
            Length[$CellContext`times]], $CellContext`time$$]], Top], 
       "Specifications" :> {{$CellContext`time$$, 1, 478, 1}}, "Options" :> {},
        "DefaultOptions" :> {}],
-     ImageSizeCache->{4763., {252., 257.}},
+     ImageSizeCache->{4925., {252., 257.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1888,7 +1833,56 @@ $CellContext`lastNamesWithoutParty], Part[#, 2] > Part[#2, 2]& ]],
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.647349209160595*^9, 3.647526045137965*^9}]
+ CellChangeTimes->{3.647349209160595*^9, 3.647526045137965*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinearModelFit", "::", "notdata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The first argument is not a vector, matrix, or a list \
+containing a design matrix and response vector. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/LinearModelFit\\\", ButtonNote -> \
+\\\"LinearModelFit::notdata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.647526503071555*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinearModelFit", "::", "notdata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The first argument is not a vector, matrix, or a list \
+containing a design matrix and response vector. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/LinearModelFit\\\", ButtonNote -> \
+\\\"LinearModelFit::notdata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.64752650312302*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinearModelFit", "::", "notdata"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The first argument is not a vector, matrix, or a list \
+containing a design matrix and response vector. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/LinearModelFit\\\", ButtonNote -> \
+\\\"LinearModelFit::notdata\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.647526503188849*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(LinearModelFit :: notdata\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.647526503230321*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1948,12 +1942,38 @@ Cell[BoxData[
     "\[IndentingNewLine]", 
     RowBox[{"data2", "=", "emptyData"}], ";", "\[IndentingNewLine]", 
     "\[IndentingNewLine]", 
-    RowBox[{"(*", "  ", 
-     RowBox[{"THIS", " ", "IS", " ", "THE", " ", "IMPORTANT", " ", 
-      RowBox[{"ONE", " ", "--"}], " ", "HOW", " ", "TO", " ", "ADD", " ", 
-      "IN", " ", "CASE", " ", "OF", " ", "ERROR"}], "   ", "*)"}], 
+    RowBox[{"(*", " ", 
+     RowBox[{"Add", " ", "literally", " ", "everything"}], " ", "*)"}], 
     "\[IndentingNewLine]", 
-    RowBox[{"data2", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"For", "[", 
+       RowBox[{
+        RowBox[{"i", "=", "1"}], ",", 
+        RowBox[{"i", "\[LessEqual]", 
+         RowBox[{"Length", "[", "data2", "]"}]}], ",", 
+        RowBox[{"i", "++"}], ",", 
+        RowBox[{"DatabinAdd", "[", 
+         RowBox[{"bin", ",", 
+          RowBox[{"Association", "[", 
+           RowBox[{"MapThread", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"#1", "\[Rule]", "#2"}], "&"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"names", ",", 
+               RowBox[{"data2", "[", 
+                RowBox[{"[", 
+                 RowBox[{"i", ",", 
+                  RowBox[{"1", ";;", 
+                   RowBox[{"Length", "[", "names", "]"}]}]}], "]"}], "]"}]}], 
+              "}"}]}], "]"}], "]"}]}], "]"}]}], "]"}], "\[IndentingNewLine]", 
+      
+      RowBox[{"(*", "  ", 
+       RowBox[{"THIS", " ", "IS", " ", "THE", " ", "IMPORTANT", " ", 
+        RowBox[{"ONE", " ", "--"}], " ", "HOW", " ", "TO", " ", "ADD", " ", 
+        "IN", " ", "CASE", " ", "OF", " ", "ERROR"}], "   ", "*)"}], 
+      "\[IndentingNewLine]", "data2"}], "=", 
      RowBox[{"Import", "[", "\"\<like_data.csv\>\"", "]"}]}], ";", 
     "\[IndentingNewLine]", 
     RowBox[{"names", "=", 
@@ -2014,17 +2034,8 @@ Cell[BoxData[
            RowBox[{"names", ",", 
             RowBox[{"data", "[", 
              RowBox[{"[", "i", "]"}], "]"}]}], "}"}]}], "]"}], "]"}]}], 
-      "]"}]}], "]"}], "*)"}]}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"DatabinRemove", "[", 
-   RowBox[{
-    RowBox[{"Databin", "[", "\"\<66W7CW2x\>\"", "]"}], ",", "30"}], "]"}], 
-  ";"}]], "Input",
- CellChangeTimes->{{3.647350982077663*^9, 3.6473510023694763`*^9}, {
-  3.647351039768733*^9, 3.647351044158854*^9}, {3.647352227835313*^9, 
-  3.647352234425685*^9}}]
+      "]"}]}], "]"}], "*)"}]}]], "Input",
+ CellChangeTimes->{{3.647526826932612*^9, 3.647526838531187*^9}}]
 },
 WindowSize->{720, 799},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
@@ -2043,44 +2054,41 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 25611, 652, 2290, "Input"],
 Cell[CellGroupData[{
-Cell[580, 22, 25611, 652, 2290, "Input"],
-Cell[26194, 676, 632, 12, 60, "Message"],
-Cell[26829, 690, 634, 12, 60, "Message"],
-Cell[27466, 704, 632, 12, 60, "Message"],
-Cell[28101, 718, 564, 11, 24, "Message"]
+Cell[26194, 676, 1522, 44, 148, "Input"],
+Cell[27719, 722, 3297, 61, 386, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28702, 734, 1522, 44, 148, "Input"],
-Cell[30227, 780, 3361, 61, 384, "Output"]
+Cell[31053, 788, 1592, 44, 148, "Input"],
+Cell[32648, 834, 3623, 70, 550, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33625, 846, 1592, 44, 148, "Input"],
-Cell[35220, 892, 3565, 68, 548, "Output"]
+Cell[36308, 909, 1833, 53, 131, "Input"],
+Cell[38144, 964, 3715, 68, 664, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[38822, 965, 1833, 53, 131, "Input"],
-Cell[40658, 1020, 3713, 67, 624, "Output"]
+Cell[41896, 1037, 2147, 61, 199, "Input"],
+Cell[44046, 1100, 15652, 405, 248, "Output"],
+Cell[59701, 1507, 162, 4, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[44408, 1092, 2147, 61, 199, "Input"],
-Cell[46558, 1155, 15652, 405, 248, "Output"],
-Cell[62213, 1562, 162, 4, 28, "Output"]
+Cell[59900, 1516, 2763, 76, 233, "Input"],
+Cell[62666, 1594, 4993, 95, 259, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[62412, 1571, 2763, 76, 233, "Input"],
-Cell[65178, 1649, 4993, 95, 259, "Output"]
+Cell[67696, 1694, 553, 18, 46, "Input"],
+Cell[68252, 1714, 894, 17, 80, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70208, 1749, 553, 18, 46, "Input"],
-Cell[70764, 1769, 894, 17, 80, "Output"]
+Cell[69183, 1736, 1776, 47, 199, "Input"],
+Cell[70962, 1785, 2297, 50, 526, "Output"],
+Cell[73262, 1837, 497, 10, 41, "Message"],
+Cell[73762, 1849, 496, 10, 41, "Message"],
+Cell[74261, 1861, 497, 10, 41, "Message"],
+Cell[74761, 1873, 540, 11, 24, "Message"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[71695, 1791, 1776, 47, 199, "Input"],
-Cell[73474, 1840, 2297, 50, 526, "Output"]
-}, Open  ]],
-Cell[75786, 1893, 4650, 123, 471, "Input"],
-Cell[80439, 2018, 329, 8, 28, "Input"]
+Cell[75316, 1887, 5695, 150, 539, "Input"]
 }
 ]
 *)
